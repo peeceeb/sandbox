@@ -22,9 +22,7 @@ def chatbot(state: State):
 
 
 graph_builder = StateGraph(State)
-
 graph_builder.add_node("chatbot", chatbot)
-
 graph_builder.add_edge(START, "chatbot")
 graph_builder.add_edge("chatbot", END)
 
@@ -39,14 +37,14 @@ with MongoDBSaver.from_conn_string(DB_URI) as checkpointer:
 
     config = {
             "configurable": {
-                "thread_id": "piyush" # user_id
+                "thread_id": "prasanna" # user_id
             }
         }
 
+    ask_question = input("Chat with me: ")
 
     for chunk in graph_with_checkpointer.stream(
-        State({"messages": ["what is my name?"]}),
-        config,
+        State({"messages": [ask_question]}), config,
         stream_mode="values"
         ):
             chunk["messages"][-1].pretty_print()
