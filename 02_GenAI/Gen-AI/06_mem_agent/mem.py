@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-from mem0 import Memory
+from mem0 import Memory #Setup the client
 import os
 import json
 
@@ -10,6 +10,8 @@ load_dotenv()
 client = OpenAI()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
+
+#configuration tells what and how to connect to the different providers for LLM, Embeddings, Graph Store and Vector Store.
 config = {
     "version": "v1.1",
     "embedder": {
@@ -20,14 +22,14 @@ config = {
         "provider": "openai",
         "config": { "api_key": OPENAI_API_KEY, "model": "gpt-4.1" }
     },
-    "graph_store":{
-        "provider": "neo4j",
-        "config": {
-            "url": "neo4j+s://fd10af2d.databases.neo4j.io",
-            "username": "neo4j",
-            "password": "Ri_hsFutNnQr0YyGeRzHroB_GlvYE-ATBVgMbu9Ohco"
-        }
-    },
+#    "graph_store":{
+#        "provider": "neo4j",
+#        "config": {
+#            "url": "neo4j+s://fd10af2d.databases.neo4j.io",
+#            "username": "neo4j",
+#            "password": "Ri_hsFutNnQr0YyGeRzHroB_GlvYE-ATBVgMbu9Ohco"
+#        }
+#    },
     "vector_store": {
         "provider": "qdrant",
         "config": {
@@ -40,12 +42,13 @@ config = {
 mem_client = Memory.from_config(config)
 
 
+
 while True:
 
 
     user_query = input("> ")
 
-    search_memory = mem_client.search(query=user_query, user_id="piyushgarg",)
+    search_memory = mem_client.search(query=user_query, user_id="prasannabagal",)
 
     memories = [
         f"ID: {mem.get("id")}\nMemory: {mem.get("memory")}" 
@@ -72,7 +75,7 @@ while True:
     print("AI:", ai_response)
 
     mem_client.add(
-        user_id="piyushgarg",
+        user_id="prasannabagal",
         messages=[
             { "role": "user", "content": user_query },
             { "role": "assistant", "content": ai_response }
@@ -80,3 +83,7 @@ while True:
     )
 
     print("Memory has been saved...")
+
+
+
+
