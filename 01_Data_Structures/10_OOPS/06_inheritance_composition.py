@@ -9,6 +9,11 @@ class MasalaChai(BaseChai):
     def add_spices(self):
         print("Adding cardamon, ginger, cloves.")
 
+
+Amit=MasalaChai("Masala")
+Amit.prepare()
+Amit.add_spices()
+
 #Composition
 class ChaiShop:
     chai_cls= BaseChai  #Refernce of the Basechai
@@ -24,11 +29,11 @@ class ChaiShop:
 class FancyChaiShop(ChaiShop):
     chai_cls=MasalaChai
 
-shop = ChaiShop()
-fancy = FancyChaiShop()
+#shop = ChaiShop()
+#fancy = FancyChaiShop()
 
-shop.serve()
-fancy.serve()
+#shop.serve()
+#fancy.serve()
 
 #fancy.chai_cls.add_spices() doesnot have context throws error
-fancy.chai.add_spices() #Has context
+#fancy.chai.add_spices() #Has context
