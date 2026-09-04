@@ -18,3 +18,4 @@ print(f"Masala:  {masala.is_hot}")
 #Each object is actually having its own namespace which doesn't affect other object and also does not affect the classes by default.
 
 #You can also add more values to Masala object eg. Flavor.
+#Hello
