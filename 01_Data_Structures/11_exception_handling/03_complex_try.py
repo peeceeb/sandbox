@@ -5,15 +5,16 @@
 def serve_chai(flavor):
     try:
         print(f"Preparing {flavor} chai")
-        if flavor=="unknown":
+        if flavor.lower()=="unknown":
             raise ValueError("We dont know that flavor")
     except ValueError as e:
         print("Error",e)
     else:
-        print(f"{flavor} chai is server")
+        print(f"{flavor} chai is served")
     finally:
         print(f"Next customer please!")
 
-serve_chai("masala")
-serve_chai("unknown")
+#serve_chai("masala")
+serve_chai("UnKnown")
+#serve_chai("unknown")
 
