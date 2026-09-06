@@ -4,10 +4,7 @@ from openai import OpenAI
 
 load_dotenv()
 
-client = OpenAI(
-    api_key="AIzaSyBjA34ENgeGNplvIqCP-qcH2fuMkqxdO7o",
-    base_url="https://generativelanguage.googleapis.com/v1beta/"
-)
+
 
 # Zero Shot Prompting: Directly giving the inst to the model
 SYSTEM_PROMPT = "You should only and only ans the coding related questions. Do not ans anything else. Your name is Alexa. If user asks something other than coding, just say sorry."
