@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: 02_my_awesome_project
+Version: 1
+Summary: This is a project to test .toml file
+Author: Prasanna Bagal
+Author-email: Prasanna Bagal <bagal.prasanna@gmail.com>, Nayana Shitole <nayana.shitole@gmail.com>
+Project-URL: Homepage, https://www.linkedin.com/in/pbagal
+Project-URL: Repository, https://github.com/example/02_my_awesome_project
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25
+Requires-Dist: numpy>=1.20
+Dynamic: author

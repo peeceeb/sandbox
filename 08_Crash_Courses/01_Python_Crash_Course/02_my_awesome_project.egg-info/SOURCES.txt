@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+02_my_awesome_project.egg-info/PKG-INFO
+02_my_awesome_project.egg-info/SOURCES.txt
+02_my_awesome_project.egg-info/dependency_links.txt
+02_my_awesome_project.egg-info/requires.txt
+02_my_awesome_project.egg-info/top_level.txt
+src/__init__.py

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "02_my_awesome_project"
+version = "V1"
+description="This is a project to test .toml file"
+readme="README.md"
+#You can point to a file or include inline text for your license.
+license={file="LICENSE"}
+
+requires-python = ">=3.8"
+
+#Author information
+authors = [
+  {name = "Prasanna Bagal", email = "bagal.prasanna@gmail.com"},
+  {name = "Nayana Shitole", email = "nayana.shitole@gmail.com"},
+]
+
+#Project dependencies
+dependencies=[
+    "requests>=2.25",
+    "numpy>=1.20"
+]
+
+#optional: URL Links related to your project
+[project.urls]
+Homepage="https://www.linkedin.com/in/pbagal"
+Repository="https://github.com/example/02_my_awesome_project"
