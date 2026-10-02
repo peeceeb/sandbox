@@ -13,6 +13,8 @@ ginger_ratio, cardamon_ratio=2,1
 print(f"ginger_ratio,{ginger_ratio}")
 cardamon_ratio,ginger_ratio=ginger_ratio,cardamon_ratio
 print(f"cardamom_ratio,{cardamon_ratio}")
+print(type(ginger_ratio))
+
 
 #membership
 print(f"Is ginger in Masala spices? {'ginger' in masala_spices}")
