@@ -5,8 +5,7 @@ class TodoManager:
         self.todos={}
         self.next_id=1
 
-
-    def create_todo(self, title, description):
+    def create_todo(self, title,description):
         todo_id=self.next_id
         todo=Todo(todo_id,title,description)
         self.todos[todo_id]=todo
