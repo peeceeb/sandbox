@@ -1,6 +1,6 @@
 class Chai:
     temperature = "hot"
-    strength ="Strong"
+    strength =   "Strong"
 
 cutting = Chai()
 print(cutting.temperature)

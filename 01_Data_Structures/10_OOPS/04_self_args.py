@@ -5,14 +5,15 @@ class Chaicup:
         return f"A {self.size} ml chai cup" #you can use self. for a property or a function
 
     def describe2(self,size): #self is the reference to all the properties you are defining in class. 1 or many
-        self.size=size
+        self.size=300
         return f"A {self.size} ml chai cup" #you can use self. for a property or a function
     
 cup=Chaicup()
+cup.size=200 #Override size=200
 print(cup.describe())
 print(cup.describe2(50)) #Override size =50
 
-cup2=Chaicup()
-print(cup2.describe())
-cup2.size=100 #Overrise size=100
-print(Chaicup.describe(cup2))
+#cup2=Chaicup()
+#print(cup2.describe())
+#cup2.size=100 #Override size=100
+#print(Chaicup.describe(cup2))

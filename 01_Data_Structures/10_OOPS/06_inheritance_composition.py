@@ -10,9 +10,9 @@ class MasalaChai(BaseChai):
         print("Adding cardamon, ginger, cloves.")
 
 
-Amit=MasalaChai("Masala")
-Amit.prepare()
-Amit.add_spices()
+#Amit=MasalaChai("Masala")
+#Amit.prepare()
+#Amit.add_spices()
 
 #Composition
 class ChaiShop:
@@ -21,7 +21,6 @@ class ChaiShop:
     def __init__(self):
         self.chai=self.chai_cls("Regular") #Creates an object Regular of class BaseChai and passing the reference in self.chai
 
-
     def serve(self):
         print(f"Serving {self.chai.type} chai in the shop")      #Access the attribute of basechai
         self.chai.prepare() #Access the method of basechai
@@ -29,11 +28,11 @@ class ChaiShop:
 class FancyChaiShop(ChaiShop):
     chai_cls=MasalaChai
 
-#shop = ChaiShop()
-#fancy = FancyChaiShop()
+shop = ChaiShop()
+fancy = FancyChaiShop()
 
-#shop.serve()
-#fancy.serve()
+shop.serve()
+fancy.serve()
 
-#fancy.chai_cls.add_spices() doesnot have context throws error
+#fancy.chai_cls.add_spices() #doesnot have context throws error
 #fancy.chai.add_spices() #Has context
