@@ -10,9 +10,11 @@ print(type(spice1))
 
 
 ginger_ratio, cardamon_ratio=2,1
-print(f"ginger_ratio,{ginger_ratio}")
+print(f"ginger_ratio = {ginger_ratio}")
+print(f"cardamon_ratio = {cardamon_ratio}")
+
 cardamon_ratio,ginger_ratio=ginger_ratio,cardamon_ratio
-print(f"cardamom_ratio,{cardamon_ratio}")
+print(f"cardamom_ratio = {cardamon_ratio}")
 print(type(ginger_ratio))
 
 
