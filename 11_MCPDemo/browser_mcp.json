@@ -1,0 +1,25 @@
+{
+    "mcpServers": {
+      "playwright": {
+        "command": "npx",
+        "args": [
+          "@playwright/mcp@latest"
+        ]
+      },
+    "airbnb": {
+    "command": "npx",
+    "args": [
+    "-y",
+    "@openbnb/mcp-server-airbnb"
+     ]
+    },
+	"zomato-mcp": {
+	"command": "npx",
+	"args": [
+	"mcp-remote",
+	"https://mcp-server.zomato.com/mcp"
+	]
+	}
+	}
+}
+  
