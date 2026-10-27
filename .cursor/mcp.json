@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+      "weather": {
+        "command": "uv",
+        "args": [
+          "run",
+          "--directory",
+          "C:\\Users\\User\\Desktop\\Sandbox\\11_MCPDemo",
+          "mcp",
+          "run",
+          "server/weather.py"
+        ]
+      }
+    }
+  }
