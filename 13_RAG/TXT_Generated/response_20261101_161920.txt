@@ -1,0 +1,42 @@
+Similarities
+- Both Context 1 and Context 2 describe how Market Risk RWA under CRR3 rely on standardized FRTB components: MR‑SA SBM (delta/vega/curvature), MR‑SA DRC, and MR‑SA RRAO (Context 1: CRR3_GD_Docs_Implemented.pdf, p.5; Context 2: CRR3_Output_floor_Latest.pdf, p.3).
+- Both state floored credit risk RWA is reported as metric RWABSA calculated in the t_rwabsa module of bii‑sa‑tree (Context 1: p.6; Context 2: p.6).
+- Both discuss output‑floor topics and market/credit RWA calculation under CRR.
+
+Differences
+- Scope and coverage:
+  - Context 1 focuses on market risk (unfloored RWA via MR‑SA) and notes on floored credit risk RWA and SA‑CCR supervisory factor constraints (CRR Art. 280c(5)) (CRR3_GD_Docs_Implemented.pdf, pp.5–6).
+  - Context 2 gives a complete framework for determining unfloored RWA across risk types per CRR Art. 92(4), including Credit Risk, Market Risk, Operational Risk, and CVA, plus technical ingestion/execution details (CRR3_Output_floor_Latest.pdf, pp.2–3,6).
+- Timelines:
+  - Context 1: Since CRR3 go‑live in 2025, floored RWA are determined using the FRTB standardized approach, even if not used for unfloored MR RWA (p.5).
+  - Context 2: Current capital‑binding methods remain MR VaR/IRC/SVAR until FRTB (IMA/SA) becomes capital‑binding in January 2027 (pp.3). Also notes a decommission date (Jan 2027) for a trading book securitization flag (RlMR=MRSA) (p.2).
+- Implementation details:
+  - Context 1 says the output floor impacts RWA, not CET1, and cites SA‑CCR rule that internal ratings must not be used for supervisory factors (CRR Art. 280c(5)); this is not yet implemented in Engines but impact is de minimis (pp.6).
+  - Context 2 specifies:
+    - RWA derivation via “own funds x 12.5” for Market Risk and CVA (CRR Art. 92(6)(b)) (pp.2–3).
+    - Data sources and systems: Kannon and RiskFinder feed MR into FDW; Trade Finder feeds OpRisk into FDW; artificial records/IFRSPOSC3 via MRORTree.xls for reporting (pp.2–3).
+    - Product‑level floor constraints and minimum loss coverage deduction mechanics (reduce CRSA orgexpbsa by NPE shortfall npeshrtflrep) (p.6).
+- Context 3 provides database metadata (tables/fields) rather than policy/process: e.g., CRR3RWA.expccy, CRR3RWA.rwa, CRR3RWA.ctryccyclbffr; FTRRB2.crdrwafctrtyp (CSV_Files\tables.csv).
+
+What Context 2 includes that is missing from Context 1
+- Full mapping to CRR Article 92(4) across risk types and use of Article 92(6)(b) 12.5x multiplier for MR and CVA RWA (CRR3_Output_floor_Latest.pdf, pp.2–3).
+- Credit Risk implementation specifics: trade‑level calc in FDW, scope flag RLTRNB2, BCS tagging in Hyperstar (p.2).
+- Market Risk implementation notes: not implemented in FDW except certain trading book securitization (RlMR=MRSA) to be decommissioned Jan 2027; ingestion from Kannon and RiskFinder (p.2).
+- Operational Risk (SMA) and CVA Risk processing, including artificial records and FSI field IFRSPOSC3 in MRORTree.xls for Hyperstar/SAP BCS reporting (pp.3).
+- Timeline for FRTB capital‑binding status (Jan 2027) and listing of current capital‑binding methodologies (VaR/IRC/SVAR) (p.3).
+- Product‑level floor rules: Derivatives/SFT via SA‑CCR, SVAA (IMM not allowed); Credit & CCR via CRSA only (IRBA not allowed); CRSA output‑floor with IRBA deduction; minimum loss coverage deduction (p.6).
+
+Best answer to the user’s query (“CRR3”)
+- Under the CRR (Capital Requirements Regulation) framework, CRR3 introduces an output floor that affects Risk‑Weighted Assets (RWA), not CET1 directly (CRR3_GD_Docs_Implemented.pdf, p.6). Since CRR3 go‑live in 2025, floored RWA have been determined using the FRTB standardized approach for market risk, even where unfloored market risk RWA are not based on it (p.5). Unfloored market risk RWA are based on MR‑SA components: SBM (delta/vega/curvature), DRC, and RRAO (p.5; CRR3_Output_floor_Latest.pdf, p.3).
+- For unfloored RWA overall, CRR Article 92(4) governs Credit, Market, Operational, and CVA risks; Market Risk and CVA RWA are derived by multiplying own funds requirements by 12.5 per Article 92(6)(b) (CRR3_Output_floor_Latest.pdf, pp.2–3). Operational Risk uses the SMA, though not implemented in FDW; CVA and OpRisk reporting use artificial records/IFRSPOSC3 via MRORTree.xls (p.3).
+- For the floor, product‑level constraints apply: derivatives/SFT must use SA‑CCR (and SVAA), IMM not allowed; credit/CCR must use CRSA, IRBA not allowed; CRSA floor includes minimum loss coverage deduction (orgexpbsa reduced by npeshrtflrep). Floored credit risk RWA are reported as RWABSA in t_rwabsa of bii‑sa‑tree (CRR3_Output_floor_Latest.pdf, p.6; CRR3_GD_Docs_Implemented.pdf, p.6).
+- Additional rule: under SA‑CCR for floored RWA, internal ratings must not be used to assign supervisory factors (CRR Art. 280c(5)); while not yet implemented in Engines, its impact is de minimis (CRR3_GD_Docs_Implemented.pdf, p.6).
+- Timeline: Current capital‑binding measures remain VaR/IRC/SVAR until FRTB (IMA/SA) becomes capital‑binding in January 2027 (CRR3_Output_floor_Latest.pdf, p.3).
+
+Pointers to data structures
+- Relevant data fields for CRR3 RWA storage include CRR3RWA.expccy, CRR3RWA.rwa, and CRR3RWA.ctryccyclbffr; also FTRRB2.crdrwafctrtyp (CSV_Files\tables.csv).
+
+File locations and pages cited
+- Context 1: C:\Users\User\Desktop\Sandbox\04_Hackathon_Project\ARC\rag\Documents\GD_Documents\CRR3_GD_Docs_Implemented.pdf (pp.5–6).
+- Context 2: C:\Users\User\Desktop\Sandbox\04_Hackathon_Project\ARC\rag\Documents\GD_Downloads\CRR3_Output_floor_Latest.pdf (pp.2–3,6).
+- Context 3: C:\Users\User\Desktop\Sandbox\04_Hackathon_Project\ARC\rag\Documents\CSV_Files\tables.csv (metadata entries shown).

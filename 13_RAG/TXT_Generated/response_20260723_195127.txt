@@ -1,0 +1,26 @@
+Similarities
+- Context 1 (CRR3_Output_floor_GD.pdf) and Context 2 (CRR3_Output_floor_Latest.pdf) contain the same content:
+  - Definition of group-level RWA components (Credit Risk incl. CCR, Market Risk, Operational Risk, CVA Risk, Settlement Risk) and methodology (internal models or standardized) [Page 1, both files].
+  - Output floor at 72.5% of standardized RWA with phase-in: 50% (2025), 55% (2026), 60% (2027), 65% (2028), 70% (2029), then 72.5% [Page 1, both files].
+  - Un-floored RWA per CRR Art. 92(4); Credit Risk scope and exemptions; trade-level implementation and tagging [Page 2, both files].
+  - Market Risk RWA calculation (×12.5), current VaR/IRC/SVaR, transition to FRTB in Jan 2027 (IMA IMCC/NMRF/DRC; SA SBM/DRC/RRAO); ingestion from Kannon/RiskFinder [Page 2–3, both files].
+  - Operational Risk via SMA based on FINREP; not implemented in FDW; technical execution using MRORTree.xls (t_mror) and FSI IFRSPOSC3 for reporting [Page 3, both files].
+  - CVA Risk RWA via ×12.5 of own funds requirements [Page 3, both files].
+
+Differences
+- Context 1 vs Context 2: No substantive differences identified. The text, phase-in schedule, methodologies, data sources, and technical execution notes appear identical across the cited pages:
+  - C:\Users\User\Desktop\ARC\rag\Documents\GD_Documents\CRR3_Output_floor_GD.pdf (Pages labeled 1, 2, 3)
+  - C:\Users\User\Desktop\ARC\rag\Documents\GD_Downloads\CRR3_Output_floor_Latest.pdf (Pages labeled 1, 2, 3)
+
+What Context 2 has that Context 1 does not
+- None observed. Content is effectively the same across the compared pages.
+
+Notes on Context 3 (CSV_Metadata)
+- The metadata lists RWA-related fields but provides no explanatory text:
+  - COREP_FTR.rwab2 and COREP_FTR.rwab2epe, SBP_MDL.model_rwa, SBP_PTF.rwa_base_5y [C:\Users\User\Desktop\ARC\rag\Documents\CSV_Files\tables.csv]. These names suggest RWA measures but do not describe Basel frameworks or methods.
+
+Best answer to the user’s query
+- Tell me about Basel2: This information is out of scope.
+
+Layman’s summary
+- The provided documents focus on CRR3/Basel III topics—how banks calculate Risk-Weighted Assets, the 72.5% output floor, and upcoming market risk rules (FRTB). They do not explain Basel II. The CSV only lists column names related to RWA and doesn’t describe Basel II either.

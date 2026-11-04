@@ -1,0 +1,1842 @@
+table,name,datastd,datatype,length,precision,scale,varnum,dumpartos,format,informat,whrcls
+B2TRNCH,rltrnb2,artos,VARCHAR2,1,,,0,0,,,
+COREP_FTR,rltrnb2,artos,VARCHAR2,1,,,0,0,,,AK
+CRST,rltrnb2,artos,VARCHAR2,1,,,0,0,,,
+DMB2INT,rltrnb2,artos,VARCHAR2,1,,,11,1,,,
+FINREP_FTR,rltrnb2,artos,VARCHAR2,1,,,0,0,,,AK
+FTRRAD,mrltrnb2,artos,VARCHAR2,100,,,0,1,,,PFLAT PTREE
+FTRRET,rltrnb2,artos,VARCHAR2,1,,,0,1,,,PFLAT CCS
+IFRS9_FTR,rltrnb2,artos,VARCHAR2,1,,,0,1,,,
+INAUADJ,rltrnb2,artos,VARCHAR2,1,,,0,1,,,
+INFTRADJ,rltrnb2,artos,VARCHAR2,1,,,0,0,,,
+INTRADFT,rltrnb2,artos,VARCHAR2,1,,,25,1,,,
+KWGFTR,rltrnb2,artos,VARCHAR2,1,,,0,0,,,
+LSX,rltrnb2,artos,VARCHAR2,1,,,0,1,,,FTR LSX RSLT
+LSX_EXCL,rltrnb2,artos,VARCHAR2,1,,,0,1,,,
+NPLDMHIST,rltrnb2,artos,VARCHAR2,1,,,0,1,,,
+OUTFTRAD,rltrnb2,artos,VARCHAR2,1,,,0,1,,,
+P3_FTR,rltrnb2,artos,VARCHAR2,1,,,0,0,,,AK
+RDBRET,rltrnb2,artos,VARCHAR2,1,,,1,0,,,
+RWAALLOC_FTR,rltrnb2,artos,VARCHAR2,1,,,0,0,,,FR
+SBP_COL,rltrnb2,artos,VARCHAR2,1,,,0,0,,,SBP_FTR
+SBP_FTR,rltrnb2,artos,VARCHAR2,1,,,0,0,,,FTR
+SHS_FTR,rltrnb2,artos,VARCHAR2,1,,,0,0,,,
+CFG_DBVMTX,dbv_rlmr,cfg,VARCHAR2,3,,,0,0,,,
+COREP_FTR,rlmr,artos,VARCHAR2,50,,,0,0,,,AK
+FTRRAD,mrlmr,artos,VARCHAR2,100,,,0,1,,,PFLAT E2FTR PTREE
+FTRRET,rlmr,artos,VARCHAR2,50,,,0,1,,,PFLAT E2FTR
+INAUADJ,rlmr,artos,VARCHAR2,50,,,0,1,,,
+INFTRADJ,rlmr,artos,VARCHAR2,50,,,0,0,,,
+LSX,rlmr,artos,VARCHAR2,50,,,,0,,,FTR
+OUTFTRAD,rlmr,artos,VARCHAR2,50,,,0,1,,,
+P3_FTR,rlmr,artos,VARCHAR2,50,,,0,0,,,
+FTRRET,ifrsposc3,artos,VARCHAR2,10,,,0,1,,,PFLAT
+FTRRET,ifrsposc3hdg,artos,VARCHAR2,10,,,0,1,,,PFLAT
+INAUADJ,ifrsposc3,artos,VARCHAR2,10,,,0,1,,,
+INAUADJ,ifrsposc3hdg,artos,VARCHAR2,10,,,0,1,,,
+INFTRADJ,ifrsposc3,artos,VARCHAR2,10,,,0,0,,,
+INFTRADJ,ifrsposc3hdg,artos,VARCHAR2,10,,,0,0,,,
+OUTFTRAD,ifrsposc3,artos,VARCHAR2,10,,,0,1,,,
+OUTFTRAD,ifrsposc3hdg,artos,VARCHAR2,10,,,0,1,,,
+B2TRNCH,rwabsa,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwabsaaddon,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwabsaepe,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwabsarep,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwabsatrprv,artos,NUMBER,,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsa,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsacomm,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsaepe,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsareiitrprvdlt,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsaretrprvdlt,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsatrprv,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsatrprvcomm,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsatrprvcrpdlt,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsatrprvexpdlt,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsatrprvunratcorpdlt,cfg,VARCHAR2,3,,,0,0,,,
+COREP_COL,rwabsatrprv,artos,NUMBER,,,,0,0,,,AV FTR
+COREP_FTR,rwabsa,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwabsacomm,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwabsareiitrprvdlt,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwabsaretrprvdlt,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwabsatrprv,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwabsatrprvcomm,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwabsatrprvcrpdlt,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwabsatrprvexpdlt,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwabsatrprvuccdlt,artos,NUMBER,,,,0,1,,,AV
+CRST,rwabsa,artos,NUMBER,,,,0,0,,,
+CRST,rwabsarep,artos,NUMBER,,,,0,0,,,
+FTR,rwabsare,artos,NUMBER,,,,0,0,,,PQRRTRN PLGDCORR E2FTR
+FTRRAD,rwabsaratio,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRAD,rwabsaratioepe,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,mrwabsa,artos,VARCHAR2,100,,,0,1,,,PLGDCORR E2FTR PTREE
+FTRRB2,rwabsa,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabsacomm,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabsaepe,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabsarep,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabsatrprvcomm,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabsatrprvuccdlt,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRREV,rwabsareiitrprvdlt,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRREV,rwabsaretrprvdlt,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRREV,rwabsatrprv,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRREV,rwabsatrprvcrpdlt,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRREV,rwabsatrprvexpdlt,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRREV,rwabsatrprvunratcorpdlt,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+INAUADJ,rwabsa,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwabsaepe,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwabsare,artos,NUMBER,,,,0,0,,,
+INAUADJ,rwabsareiitrprvdlt,artos,NUMBER,,,,0,0,,,
+INAUADJ,rwabsaretrprv,artos,NUMBER,,,,0,0,,,
+INAUADJ,rwabsaretrprvdlt,artos,NUMBER,,,,0,0,,,
+INAUADJ,rwabsatrprv,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwabsatrprvcrpdlt,artos,NUMBER,,,,0,0,,,
+INAUADJ,rwabsatrprvexpdlt,artos,NUMBER,,,,0,0,,,
+INAUADJ,rwabsatrprvuccdlt,artos,NUMBER,,,,0,0,,,
+INAUADJ,rwabsatrprvunratcorpdlt,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsaepe,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsare,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsareiitrprvdlt,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsaretrprv,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsaretrprvdlt,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsatrprv,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsatrprvcrpdlt,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsatrprvexpdlt,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsatrprvuccdlt,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsatrprvunratcorpdlt,artos,NUMBER,,,,0,0,,,
+LSX,rwabsa,artos,NUMBER,,,,0,1,,,FTR LSX RSLT
+LSX,rwabsaclo,artos,NUMBER,,,,0,1,,,LSX RSLT
+LSX,rwabsacomm,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsaepe,artos,NUMBER,,,,0,1,,,FTR LSX RSLT
+LSX,rwabsare,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsareiitrprvdlt,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsarep,artos,NUMBER,,,,0,1,,,FTR LSX RSLT
+LSX,rwabsarepclo,artos,NUMBER,,,,0,1,,,LSX RSLT
+LSX,rwabsaretrprvdlt,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsatrprv,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsatrprvclo,artos,NUMBER,,,,0,1,,,LSX RSLT
+LSX,rwabsatrprvcomm,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsatrprvcrpdlt,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsatrprvexpdlt,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsatrprvuccdlt,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsatrprvunratcorpdlt,artos,NUMBER,,,,,0,,,FTR RSLT
+OUTFTRAD,rwabsa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsacomm,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsaepe,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsare,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsareiitrprvdlt,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsaretrprv,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsaretrprvdlt,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsatrprv,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsatrprvcomm,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsatrprvcrpdlt,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsatrprvexpdlt,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsatrprvuccdlt,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsatrprvunratcorpdlt,artos,NUMBER,,,,0,1,,,
+PRESEC,mmrwabsa,artos,NUMBER,,,,0,1,,,
+PRESEC,mmrwabsatrprv,artos,NUMBER,,,,0,1,,,
+PRESEC,rwabsaaddon,artos,NUMBER,,,,0,1,,,PRESEC2TRAN
+PRESEC,rwabsacap,artos,NUMBER,,,,0,1,,,
+PRESEC,rwabsafxpresec,artos,NUMBER,,,,0,1,,,
+PRESEC,rwabsapresec,artos,NUMBER,,,,0,1,,,
+PRESEC,rwabsarep,artos,NUMBER,,,,0,1,,,PRESEC2TRAN
+PRESEC,rwabsareppresec,artos,NUMBER,,,,0,1,,,
+PRESEC,rwabsatran,artos,NUMBER,,,,0,1,,,PRESEC2TRAN
+PRESEC,rwabsatrantrprv,artos,NUMBER,,,,0,1,,,PRESEC2TRAN
+PRESEC,rwabsatrprvfxpresec,artos,NUMBER,,,,0,1,,,
+PRESEC,rwabsatrprvpresec,artos,NUMBER,,,,0,1,,,
+RDBRET,rwabsaepe,artos,NUMBER,,,,1,0,,,
+RDBRET,rwabsarep,artos,NUMBER,,,,1,0,,,
+RWAALLOC_FTR,rwabsa,artos,NUMBER,,,,0,0,,,
+RWASUMMARY,mmrwabsaagg,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,mmrwabsatrprvagg,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsacap,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsafxpresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsapresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsarelief,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsarepagg,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsarepdedagg,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsareppresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsarepsum,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsareptrprvagg,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsareptrprvsum,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsatrprvcap,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsatrprvfxpresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsatrprvrelief,artos,NUMBER,,,,0,1,,,
+SBP_FTR,rwabsaepe,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTRHIST,rwabsaepe,artos,NUMBER,,,,0,0,,,FTR
+SBP_PTF,rwabsaepe,artos,NUMBER,,,,0,0,,,SBP_FTR
+SECDM,rwabsacap,artos,NUMBER,,,,0,1,,,PRESEC2SEC DEAL_LEV
+B2TRNCH,orgexpbsa,artos,NUMBER,,,,0,0,,,
+B2TRNCH,orgexpbsaepe,artos,NUMBER,,,,0,0,,,
+CFG_DBVMTX,dbv_orgexpbsa,cfg,VARCHAR2,3,,,0,0,,,
+COREP_FTR,ccforgexpbsa,artos,NUMBER,,,,0,0,,,AK
+COREP_FTR,orgexpbsa,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,orgexpbsamrtg,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,orgexpbsare,artos,NUMBER,,,,0,1,,,AV
+CRIPLOSSESHIST,orgexpbsaepe,artos,NUMBER,,,,0,1,,,
+CRIPLOSSESHIST,orgexpbsare,artos,NUMBER,,,,0,1,,,
+FTRRB2,ccforgexpbsa,artos,NUMBER,,,,0,1,,,PFLAT CCS
+FTRRB2,colorgexpbsa,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,colorgexpbsaepe,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,colorgexpbsare,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,garorgexpbsa,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,garorgexpbsaepe,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,garorgexpbsare,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,orgexpbsa,artos,NUMBER,,,,0,1,,,PFLAT PCOLLAT PLGDCORR E2FTR CCS
+FTRRB2,orgexpbsa_temp,artos,NUMBER,,,,0,1,,,PFLAT
+FTRRB2,orgexpbsaepe,artos,NUMBER,,,,0,1,,,PFLAT PCOLLAT PLGDCORR E2FTR CCS
+FTRRB2,orgexpbsaepeorig,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,orgexpbsaepepreprv,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,orgexpbsaorig,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,orgexpbsapreprv,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,orgexpbsare,artos,NUMBER,,,,0,1,,,PFLAT PCOLLAT PLGDCORR E2FTR
+FTRRB2,orgexpbsareorig,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,orgexpbsarepreprv,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,orgexpbsaretrprv,artos,NUMBER,,,,0,1,,,PFLAT PCOLLAT PLGDCORR E2FTR
+FTRREV,orgexpbsamrtg,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+INAUADJ,ccforgexpbsa,artos,NUMBER,,,,0,1,,,
+INAUADJ,orgexpbsa,artos,NUMBER,,,,0,1,,,
+INAUADJ,orgexpbsaepe,artos,NUMBER,,,,0,1,,,
+INAUADJ,orgexpbsamrtg,artos,NUMBER,,,,0,0,,,
+INAUADJ,orgexpbsare,artos,NUMBER,,,,0,0,,,
+INAUADJ,orgexpbsaretrprv,artos,NUMBER,,,,0,0,,,
+INFTRADJ,ccforgexpbsa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,orgexpbsa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,orgexpbsaepe,artos,NUMBER,,,,0,0,,,
+INFTRADJ,orgexpbsamrtg,artos,NUMBER,,,,0,0,,,
+INFTRADJ,orgexpbsare,artos,NUMBER,,,,0,0,,,
+INFTRADJ,orgexpbsaretrprv,artos,NUMBER,,,,0,0,,,
+LSX,ccforgexpbsa,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,orgexpbsa,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,orgexpbsaepe,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,orgexpbsamrtg,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,orgexpbsare,artos,NUMBER,,,,,0,,,FTR RSLT
+OUTFTRAD,ccforgexpbsa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,orgexpbsa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,orgexpbsaepe,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,orgexpbsamrtg,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,orgexpbsare,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,orgexpbsaretrprv,artos,NUMBER,,,,0,1,,,
+SBP_FTR,ccforgexpbsa,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTRHIST,ccforgexpbsa,artos,NUMBER,,,,0,0,,,FTR
+COREP_FTR,npeshrtflrep,artos,NUMBER,,,,0,0,,,AV
+FTRREV,npeshrtflrep,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR CCS
+INAUADJ,npeshrtflrep,artos,NUMBER,,,,0,1,,,
+INFTRADJ,npeshrtflrep,artos,NUMBER,,,,0,1,,,
+LSX,npeshrtflrep,artos,NUMBER,,,,,0,,,FTR RSLT
+OUTFTRAD,npeshrtflrep,artos,NUMBER,,,,0,1,,,
+RDBRET,npeshrtflrep,artos,NUMBER,,,,1,0,,,
+B2INT,rwab2,artos,NUMBER,,,,3,1,,,
+B2TRNCH,mrwab2ep,artos,VARCHAR2,100,,,0,1,,,
+B2TRNCH,mrwaepe,artos,VARCHAR2,100,,,0,1,,,
+B2TRNCH,mtrchrwa,artos,VARCHAR2,100,,,0,0,,,
+B2TRNCH,plcovrrwa,artos,NUMBER,,,,0,1,,,
+B2TRNCH,rwab2comm,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwab2epe,artos,NUMBER,,,,0,1,,,
+B2TRNCH,rwab2sec,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwab2sectrprv,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwabaaaddon,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwabaagrepe,artos,NUMBER,,,,0,1,,,
+B2TRNCH,rwabaagrepes,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwabaagrs,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwabaarep,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwabfagr,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwabfagrs,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwabfarep,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwabsa,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwabsaaddon,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwabsaepe,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwabsarep,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwabsatrprv,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwabtfraasepe,artos,NUMBER,,,,0,1,,,
+B2TRNCH,rwacdib2epe,artos,NUMBER,,,,0,1,,,
+B2TRNCH,rwarepb2epe,artos,NUMBER,,,,0,1,,,
+B2TRNCH,rwasecb2,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwasecb2epe,artos,NUMBER,,,,0,1,,,
+B2TRNCH,rwasecerba,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwasecsa,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwatfrb2,artos,NUMBER,,,,0,0,,,
+B2TRNCH,rwatfrb2epe,artos,NUMBER,,,,0,1,,,
+CCPRWADJ,ccprw,artos,NUMBER,,,,5,1,,,
+CCPRWADJ,cpylngncpy,gcds,VARCHAR2,255,,,2,1,,,
+CCPRWADJ,crmslegetyid,gcds,NUMBER,,,,1,1,,,
+CCPRWADJ,sceprdtyptrn,gcds,VARCHAR2,40,,,0,1,,,
+CCPRWADJ,trnid,gcds,VARCHAR2,100,,,3,1,,,
+CCPRWADJ,trnidsce,gcds,VARCHAR2,40,,,4,1,,,
+CDSRWA,cdssrc,artos,VARCHAR2,35,,,0,1,,,
+CDSRWA,cdstyp,artos,VARCHAR2,1,,,0,1,,,
+CDSRWA,cethrshld,artos,NUMBER,,,,0,1,,,
+CDSRWA,extnotamt,artos,NUMBER,,,,0,1,,,
+CDSRWA,extnotrwa,artos,NUMBER,,,,0,1,,,
+CDSRWA,facid,gcds,VARCHAR2,100,,,0,1,,,
+CDSRWA,rlcdsb2,artos,VARCHAR2,1,,,0,1,,,
+CDSRWA,rstrctflg,artos,VARCHAR2,1,,,0,1,,,
+CDSRWA,trnidcds,artos,VARCHAR2,100,,,0,1,,,
+CFG_DBVMTX,dbv_crdrwafctraa,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_crdrwafctrsa,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_mrsarwarep,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwab2,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwab2comm,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwab2epe,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwab2re,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwab2sec,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabaagrepes,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabaagrs,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabfagrs,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsa,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsacomm,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsaepe,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsareiitrprvdlt,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsaretrprvdlt,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsatrprv,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsatrprvcomm,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsatrprvcrpdlt,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsatrprvexpdlt,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwabsatrprvunratcorpdlt,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwacdib2,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwacdib2epe,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwacva,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwarepb2,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwarepb2epe,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwarepb2rtgmgepe,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwasecovrllcap,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwasecovrllcapcomm,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwasecovrllcaptrprv,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwasecovrllcaptrprvcomm,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwasecprecap,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwasecprecapcomm,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwasecprecaptrprv,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwasecprecaptrprvcomm,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwasecprerwcapcomm,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwasecprerwcaptrprvcomm,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwasecprvcrp,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwasecrwcap,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwasecrwcapcomm,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwasecrwcaptrprv,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_rwasecrwcaptrprvcomm,cfg,VARCHAR2,3,,,0,0,,,
+COREP_COL,rwabsatrprv,artos,NUMBER,,,,0,0,,,AV FTR
+COREP_COL,rwarepb2epe,artos,NUMBER,,,,0,0,,,AV FTR
+COREP_FTR,crdrwafctr,artos,NUMBER,,,,0,0,,,AK
+COREP_FTR,crdrwafctrsa,artos,NUMBER,,,,0,1,,,AK
+COREP_FTR,crdrwafctrtypaa,artos,VARCHAR2,2,,,0,0,,,AK
+COREP_FTR,crdrwafctrtypsa,artos,VARCHAR2,2,,,0,0,,,AK
+COREP_FTR,rwab2,artos,NUMBER,,,,0,0,,,AV COPY2EPE ORIG_NBPINV
+COREP_FTR,rwab2comm,artos,NUMBER,,,,0,0,,,AV ZERO_DLT ORIG_NBPINV
+COREP_FTR,rwab2epe,artos,NUMBER,,,,0,0,,,AV ORIG_NBPINV
+COREP_FTR,rwab2epeplgd,artos,NUMBER,,,,0,0,,,CALC AV
+COREP_FTR,rwab2epesign,artos,NUMBER,,,,0,0,,,CALC AK
+COREP_FTR,rwab2sec,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwabdlaas,artos,NUMBER,,,,0,0,,,
+COREP_FTR,rwabdlfas,artos,NUMBER,,,,0,0,,,
+COREP_FTR,rwabsa,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwabsacomm,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwabsareiitrprvdlt,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwabsaretrprvdlt,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwabsatrprv,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwabsatrprvcomm,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwabsatrprvcrpdlt,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwabsatrprvexpdlt,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwabsatrprvuccdlt,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwacva,artos,NUMBER,,,,0,0,,,AV ZERO_DLT ORIG_NBPINV
+COREP_FTR,rwamaxlsscap,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwarepb2epe,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwasecb2,artos,NUMBER,,,,0,0,,,COPY2EPE
+COREP_FTR,rwasecb2comm,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwasecb2epe,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwasecerba,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwasecovrllcap,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwasecovrllcapcomm,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwasecovrllcaptrprv,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwasecovrllcaptrprvcomm,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwasecprecap,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwasecprecapcomm,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwasecprecaptrprv,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwasecprecaptrprvcomm,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwasecprerwcap,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwasecprerwcapcomm,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwasecrwcap,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwasecrwcapcomm,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwasecrwcaptrprv,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwasecrwcaptrprvcomm,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,rwasecsa,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,rwatfrb2,artos,NUMBER,,,,0,0,,,AV COPY2EPE ZERO_DLT ORIG_NBPINV
+COREP_FTR,rwatfrb2epe,artos,NUMBER,,,,0,0,,,AV
+COREP_MROR,rwab2,artos,NUMBER,,,,0,0,,,BK AV
+COREP_SEC,rwacsoftrprvmrsec,artos,NUMBER,,,,0,0,,,AV
+COREP_SEC,rwadbtrn,artos,NUMBER,,,,0,0,,,AV
+COREP_SEC,rwasecovrllcap,artos,NUMBER,,,,0,0,,,AV
+COREP_SEC,rwasecprecap,artos,NUMBER,,,,0,0,,,AV
+COREP_SEC,rwasecrwcap,artos,NUMBER,,,,0,0,,,AV
+CRR3RWA,calctyp,artos,VARCHAR2,20,,,0,1,,,
+CRR3RWA,ctryccyclbffr,artos,VARCHAR2,3,,,0,1,,,
+CRR3RWA,datetime,gcds,VARCHAR2,15,,,0,1,,,
+CRR3RWA,expccy,artos,VARCHAR2,3,,,0,1,,,
+CRR3RWA,expvue,artos,NUMBER,,,,0,1,,,
+CRR3RWA,filename,gcds,VARCHAR2,20,,,0,1,,,
+CRR3RWA,repdte,gcds,DATE,,,,0,1,,,
+CRR3RWA,repety,artos,VARCHAR2,5,,,0,1,,,
+CRR3RWA,rwa,artos,NUMBER,,,,0,1,,,
+CRR3RWA,ubrtrn,gcds,NUMBER,,,,0,1,,,
+CRST,rwab2,artos,NUMBER,,,,0,0,,,
+CRST,rwab2epe,artos,NUMBER,,,,0,0,,,
+CRST,rwabaagr,artos,NUMBER,,,,0,0,,,
+CRST,rwabaagrepes,artos,NUMBER,,,,0,0,,,
+CRST,rwabaagrs,artos,NUMBER,,,,0,0,,,
+CRST,rwabaarep,artos,NUMBER,,,,0,0,,,
+CRST,rwabsa,artos,NUMBER,,,,0,0,,,
+CRST,rwabsarep,artos,NUMBER,,,,0,0,,,
+CRST,rwabtfraarep,artos,NUMBER,,,,0,0,,,
+CRST,rwabtfraas,artos,NUMBER,,,,0,0,,,
+CRST,rwacdib2,artos,NUMBER,,,,0,0,,,
+CRST,rwacdib2epe,artos,NUMBER,,,,0,0,,,
+CRST,rwacva,artos,NUMBER,,,,0,0,,,
+CRST,rwagroupgrprecol,artos,NUMBER,,,,0,0,,,
+CRST,rwagroupnetpostcol,artos,NUMBER,,,,0,0,,,
+CRST,rwarepb2,artos,NUMBER,,,,0,0,,,
+CRST,rwarepb2epe,artos,NUMBER,,,,0,0,,,
+CRST,rwatfrb2,artos,NUMBER,,,,0,0,,,
+CRST,rwatfrb2epe,artos,NUMBER,,,,0,0,,,
+DMB2INT,crdrwafctr,artos,NUMBER,,,,0,1,,,
+DMB2INT,rwab2,artos,NUMBER,,,,29,1,,,
+DMB2INT,rwab2comm,artos,NUMBER,,,,34,1,,,
+DMB2INT,rwab2epe,artos,NUMBER,,,,30,1,,,
+DMB2INT,rwab2epeplgd,artos,NUMBER,,,,0,1,,,
+DMB2INT,rwab2sec,artos,NUMBER,,,,87,1,,,
+DMB2INT,rwaccyclbffrcdirepb2,artos,NUMBER,,,,0,1,,,
+DMB2INT,rwacdirepb2,artos,NUMBER,,,,0,1,,,
+DMB2INT,rwacva,artos,NUMBER,,,,0,1,,,
+DMB2INT,rwagroupnetpostcol,artos,NUMBER,,,,8,1,,,
+DMB2INT,rwalenetpostcol,artos,NUMBER,,,,69,1,,,
+DMB2INT,rwanpecdirepb2,artos,NUMBER,,,,0,1,,,
+DMB2INT,rwasecb2,artos,NUMBER,,,,94,1,,,
+DMB2INT,rwasecb2comm,artos,NUMBER,,,,92,1,,,
+DMB2INT,rwasecb2epe,artos,NUMBER,,,,91,1,,,
+DMB2INT,rwasecprerwcap,artos,NUMBER,,,,0,1,,,
+DMB2INT,rwasecprerwcapcomm,artos,NUMBER,,,,0,1,,,
+DMB2INT,rwasysrskbffrcdirepb2,artos,NUMBER,,,,0,1,,,
+DMB2INT,rwatfrb2,artos,NUMBER,,,,37,1,,,
+DMB2INT,rwatfrb2epe,artos,NUMBER,,,,38,1,,,
+DMP1,rwagr,artos,NUMBER,,,,0,1,,,
+DMP1,rwagroupnetaddon,artos,NUMBER,,,,0,1,,,
+DMP1,rwagroupnetb1,artos,NUMBER,,,,0,1,,,
+DMP1,rwagroupnetdercol,artos,NUMBER,,,,0,1,,,
+DMP1,rwagroupnetmtm,artos,NUMBER,,,,0,1,,,
+DMP1,rwagroupnetp1,artos,NUMBER,,,,0,1,,,
+DMP1,rwagroupnetpostcolcomm,artos,NUMBER,,,,0,1,,,
+DMP1,rwagroupnetpostcolcommb1,artos,NUMBER,,,,0,1,,,
+DMP1,rwalenetpostcol,artos,NUMBER,,,,0,1,,,
+DMP1,rwanet,artos,NUMBER,,,,0,1,,,
+DMP1,rwanetle,artos,NUMBER,,,,0,1,,,
+DMP1,rwarepubr,gcds,NUMBER,,,,0,1,,,
+DUMMY,mrepfrwa,artos,VARCHAR2,100,,,,0,,,
+DUMMY,rwa_repflg,artos,VARCHAR2,1,,,,0,,,
+FINREP_FTR,rwab2comm,artos,NUMBER,,,,0,0,,,AV
+FINREP_FTR,rwab2epe,artos,NUMBER,,,,0,0,,,AV
+FINREP_FTR,rwabdlaas,artos,NUMBER,,,,0,0,,,AV
+FINREP_FTR,rwacdib2epe,artos,NUMBER,,,,0,0,,,AV
+FINREP_FTR,rwacva,artos,NUMBER,,,,0,0,,,AV
+FINREP_FTR,rwarepb2epe,artos,NUMBER,,,,0,0,,,AV
+FINREP_FTR,rwatfrb2epe,artos,NUMBER,,,,0,0,,,AV
+FTR,mrwafdf,artos,VARCHAR2,100,,,0,0,,,E2FTR PTREE
+FTR,rwabaagrrtgmgepe,artos,NUMBER,,,,0,0,,,PLGDCORR E2FTR
+FTR,rwabaagrsrtgmgepe,artos,NUMBER,,,,0,0,,,PLGDCORR E2FTR
+FTR,rwabsare,artos,NUMBER,,,,0,0,,,PQRRTRN PLGDCORR E2FTR
+FTR,rwarepb2epend,artos,NUMBER,,,,0,0,,,PLGDCORR E2FTR
+FTRFTI,rwarepubr,gcds,NUMBER,,15,,0,1,,,PFLAT PLGDCORR
+FTRRAD,mifrsrwa,artos,VARCHAR2,100,,,0,1,,,PFLAT PTREE
+FTRRAD,mrwaaddn,artos,VARCHAR2,240,,,0,1,,,PCOLLAT PLGDCORR E2FTR PTREE
+FTRRAD,mrwab2cs,artos,VARCHAR2,100,,,0,1,,,E2FTR PTREE
+FTRRAD,mrwafctr,artos,VARCHAR2,100,,,0,1,,,PQRRTRN PTREE
+FTRRAD,mrwafdf2,artos,VARCHAR2,100,,,0,1,,,E2FTR PTREE
+FTRRAD,mrwainv,artos,VARCHAR2,100,,,,1,,,E2FTR PTREE
+FTRRAD,mrwascap,artos,VARCHAR2,100,,,0,1,,,PCOLLAT PLGDCORR E2FTR PTREE
+FTRRAD,rwabaaratio,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRAD,rwabfaratio,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRAD,rwabsaratio,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRAD,rwabsaratioepe,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRAD,rwaratiop1,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,crdrwafctr,artos,NUMBER,,,,0,1,,,PLGDCORR CCS
+FTRRB2,crdrwafctraa,artos,NUMBER,,,,0,1,,,PQRRTRN CCS
+FTRRB2,crdrwafctrsa,artos,NUMBER,,,,0,1,,,PQRRTRN CCS
+FTRRB2,crdrwafctrtyp,artos,VARCHAR2,2,,,0,1,,,PLGDCORR CCS
+FTRRB2,crdrwafctrtypaa,artos,VARCHAR2,2,,,0,1,,,PQRRTRN CCS
+FTRRB2,crdrwafctrtypsa,artos,VARCHAR2,2,,,0,1,,,PQRRTRN CCS
+FTRRB2,mrsarwarep,artos,NUMBER,,,,,1,,,E2FTR
+FTRRB2,mrwa,artos,VARCHAR2,100,,,0,1,,,PLGDCORR PTREE
+FTRRB2,mrwab2,artos,VARCHAR2,200,,,0,1,,,PLGDCORR E2FTR PTREE
+FTRRB2,mrwab2ep,artos,VARCHAR2,100,,,0,1,,,PCOLLAT PLGDCORR E2FTR PTREE
+FTRRB2,mrwabaa,artos,VARCHAR2,100,,,0,1,,,PLGDCORR PTREE
+FTRRB2,mrwabfa,artos,VARCHAR2,100,,,0,1,,,PLGDCORR PTREE
+FTRRB2,mrwabsa,artos,VARCHAR2,100,,,0,1,,,PLGDCORR E2FTR PTREE
+FTRRB2,mrwaddon,artos,VARCHAR2,100,,,0,1,,,PQRRTRN PLGDCORR PTREE
+FTRRB2,mrwarep,artos,VARCHAR2,100,,,0,1,,,PLGDCORR PTREE
+FTRRB2,mrwasec,artos,VARCHAR2,100,,,0,1,,,PLGDCORR PTREE
+FTRRB2,plcovrrwa,artos,NUMBER,,,,0,1,,,PFLAT
+FTRRB2,rwab2,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwab2comm,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwab2epe,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwab2re,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwab2sec,artos,NUMBER,,,,0,1,,,E2FTR
+FTRRB2,rwab2sectrprv,artos,NUMBER,,,,0,1,,,E2FTR
+FTRRB2,rwabaaeperatio,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,rwabaagr,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabaagrepe,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabaagrepes,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabaagrs,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabaarep,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabdlaarep,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,rwabdlaas,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,rwabdlfarep,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,rwabdlfas,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,rwabfagr,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabfagrs,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabfarep,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabsa,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabsacomm,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabsaepe,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabsarep,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabsatrprvcomm,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabsatrprvuccdlt,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwabtfraarep,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,rwabtfraas,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,rwabtfraasepe,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,rwabtfrfarep,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,rwabtfrfas,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,rwacdib2,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwacdib2epe,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwacva,artos,NUMBER,,,,0,1,,,E2FTR PLGDCORR
+FTRRB2,rwamaxlsscap,artos,NUMBER,,,,0,1,,,E2FTR
+FTRRB2,rwaofaddon,artos,NUMBER,,,,0,1,,,E2FTR
+FTRRB2,rwaofaddontrprv,artos,NUMBER,,,,0,1,,,E2FTR
+FTRRB2,rwarepb2,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwarepb2epe,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,rwasecb2,artos,NUMBER,,,,0,1,,,PQRRTRN PLGDCORR
+FTRRB2,rwasecb2comm,artos,NUMBER,,,,0,1,,,PQRRTRN PLGDCORR
+FTRRB2,rwasecb2epe,artos,NUMBER,,,,0,1,,,PQRRTRN PLGDCORR
+FTRRB2,rwasecovrllcap,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRRB2,rwasecovrllcapcomm,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRRB2,rwasecovrllcaptrprv,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRRB2,rwasecovrllcaptrprvcomm,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRRB2,rwasecprecap,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRRB2,rwasecprecapcomm,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRRB2,rwasecprecaptrprv,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRRB2,rwasecprecaptrprvcomm,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRRB2,rwasecprerwcap,artos,NUMBER,,,,0,1,,,PFLAT E2FTR
+FTRRB2,rwasecprerwcapcomm,artos,NUMBER,,,,0,1,,,PFLAT E2FTR
+FTRRB2,rwasecprerwcaptrprv,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRRB2,rwasecprerwcaptrprvcomm,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRRB2,rwasecrwcap,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRRB2,rwasecrwcapcomm,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRRB2,rwasecrwcaptrprv,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRRB2,rwasecrwcaptrprvcomm,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRRB2,rwatfrb2,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,rwatfrb2epe,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRBS,rwarepb2rtgmgepe,artos,NUMBER,,,,,1,,,PFLAT PLGDCORR E2FTR
+FTRRET,rwamr,artos,NUMBER,,,,0,1,,,E2FTR
+FTRREV,rwabsareiitrprvdlt,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRREV,rwabsaretrprvdlt,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR E2FTR
+FTRREV,rwabsatrprv,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRREV,rwabsatrprvcrpdlt,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRREV,rwabsatrprvexpdlt,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRREV,rwabsatrprvunratcorpdlt,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRREV,rwagroupgrprecol,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,rwagroupnetaddon,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,rwagroupnetdercol,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,rwagroupnetmtm,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,rwagroupnetpostcol,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,rwagroupnetpostcolcomm,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,rwagroupnetprecol,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,rwalegrprecol,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,rwalenetpostcol,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,rwalenetprecol,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,rwaltvsec,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRREV,rwaltvunsec,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRREV,rwasecerba,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,rwasecsa,artos,NUMBER,,,,0,1,,,PLGDCORR
+INAUADJ,crdrwafctr,artos,NUMBER,,,,0,1,,,
+INAUADJ,crdrwafctrtyp,artos,VARCHAR2,2,,,0,1,,,
+INAUADJ,crdrwafctrtypaa,artos,VARCHAR2,2,,,0,1,,,
+INAUADJ,crdrwafctrtypsa,artos,VARCHAR2,2,,,0,1,,,
+INAUADJ,mrsarwarep,artos,NUMBER,,,,0,1,,,
+INAUADJ,mrwabaa,artos,VARCHAR2,100,,,0,1,,,
+INAUADJ,rwab2,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwab2comm,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwab2epe,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwab2re,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwab2sec,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwab2sectrprv,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwabaagrepes,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwabaagrs,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwabdlaas,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwabfagrs,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwabsa,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwabsaepe,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwabsare,artos,NUMBER,,,,0,0,,,
+INAUADJ,rwabsareiitrprvdlt,artos,NUMBER,,,,0,0,,,
+INAUADJ,rwabsaretrprv,artos,NUMBER,,,,0,0,,,
+INAUADJ,rwabsaretrprvdlt,artos,NUMBER,,,,0,0,,,
+INAUADJ,rwabsatrprv,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwabsatrprvcrpdlt,artos,NUMBER,,,,0,0,,,
+INAUADJ,rwabsatrprvexpdlt,artos,NUMBER,,,,0,0,,,
+INAUADJ,rwabsatrprvuccdlt,artos,NUMBER,,,,0,0,,,
+INAUADJ,rwabsatrprvunratcorpdlt,artos,NUMBER,,,,0,0,,,
+INAUADJ,rwacdib2,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwacdib2epe,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwacva,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwagroupnetpostcol,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwalenetpostcol,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwarepb2,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwarepb2epe,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwarepb2rtgmgepe,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwasecb2,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwasecb2comm,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwasecb2epe,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwasecerba,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwasecprerwcap,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwasecprerwcapcomm,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwasecprerwcaptrprv,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwasecprerwcaptrprvcomm,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwasecprvcrp,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwasecsa,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwatfrb2,artos,NUMBER,,,,0,1,,,
+INAUADJ,rwatfrb2epe,artos,NUMBER,,,,0,1,,,
+INFTRADJ,crdrwafctr,artos,NUMBER,,,,0,0,,,
+INFTRADJ,crdrwafctrtyp,artos,VARCHAR2,2,,,0,0,,,
+INFTRADJ,crdrwafctrtypaa,artos,VARCHAR2,2,,,0,0,,,
+INFTRADJ,crdrwafctrtypsa,artos,VARCHAR2,2,,,0,0,,,
+INFTRADJ,mrsarwarep,artos,NUMBER,,,,0,0,,,
+INFTRADJ,mrwabaa,artos,VARCHAR2,100,,,0,0,,,
+INFTRADJ,rwab2,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwab2comm,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwab2epe,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwab2re,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwab2sec,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwab2sectrprv,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabaagrepes,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabaagrs,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabdlaas,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabfagrs,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsaepe,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsare,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsareiitrprvdlt,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsaretrprv,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsaretrprvdlt,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsatrprv,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsatrprvcrpdlt,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsatrprvexpdlt,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsatrprvuccdlt,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwabsatrprvunratcorpdlt,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwacdib2,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwacdib2epe,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwacva,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwagroupnetpostcol,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwalenetpostcol,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwarepb2,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwarepb2epe,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwarepb2rtgmgepe,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwasecb2,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwasecb2comm,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwasecb2epe,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwasecerba,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwasecprerwcap,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwasecprerwcapcomm,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwasecprerwcaptrprv,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwasecprerwcaptrprvcomm,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwasecprvcrp,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwasecsa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwatfrb2,artos,NUMBER,,,,0,0,,,
+INFTRADJ,rwatfrb2epe,artos,NUMBER,,,,0,0,,,
+KWGFTR,rwab2,artos,NUMBER,,,,0,0,,,
+KWGFTR,rwab2epe,artos,NUMBER,,,,0,0,,,
+LCX,rwaltvsecclst,artos,NUMBER,,,,0,1,,,
+LCX,rwaltvunsecclst,artos,NUMBER,,,,0,1,,,
+LEMRET,rwagroupnetpostcol,artos,NUMBER,,,,15,0,,,
+LEMRET,rwarepb2,artos,NUMBER,,,,24,0,,,
+LSX,crdrwafctr,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,crdrwafctraa,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,crdrwafctrsa,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,mrwaaclo,artos,VARCHAR2,100,,,0,1,,,LSX
+LSX,mrwafclo,artos,VARCHAR2,100,,,0,1,,,LSX
+LSX,mrwasclo,artos,VARCHAR2,100,,,0,1,,,LSX
+LSX,rwab2,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwab2epe,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabaagr,artos,NUMBER,,,,0,1,,,FTR LSX RSLT
+LSX,rwabaagrclo,artos,NUMBER,,,,0,1,,,LSX RSLT
+LSX,rwabaagrepe,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabaagrepes,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabaagrs,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabaagrsrtgmgepe,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabaarep,artos,NUMBER,,,,0,1,,,FTR LSX RSLT
+LSX,rwabaarepclo,artos,NUMBER,,,,0,1,,,LSX RSLT
+LSX,rwabfagr,artos,NUMBER,,,,0,1,,,FTR LSX
+LSX,rwabfagrclo,artos,NUMBER,,,,0,1,,,LSX RSLT
+LSX,rwabfagrs,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabfarep,artos,NUMBER,,,,0,1,,,FTR LSX RSLT
+LSX,rwabfarepclo,artos,NUMBER,,,,0,1,,,LSX RSLT
+LSX,rwabsa,artos,NUMBER,,,,0,1,,,FTR LSX RSLT
+LSX,rwabsaclo,artos,NUMBER,,,,0,1,,,LSX RSLT
+LSX,rwabsacomm,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsaepe,artos,NUMBER,,,,0,1,,,FTR LSX RSLT
+LSX,rwabsare,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsareiitrprvdlt,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsarep,artos,NUMBER,,,,0,1,,,FTR LSX RSLT
+LSX,rwabsarepclo,artos,NUMBER,,,,0,1,,,LSX RSLT
+LSX,rwabsaretrprvdlt,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsatrprv,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsatrprvclo,artos,NUMBER,,,,0,1,,,LSX RSLT
+LSX,rwabsatrprvcomm,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsatrprvcrpdlt,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsatrprvexpdlt,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsatrprvuccdlt,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabsatrprvunratcorpdlt,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabtfraaclo,artos,NUMBER,,,,0,1,,,LSX RSLT
+LSX,rwabtfraas,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabtfraasepe,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwabtfrfaclo,artos,NUMBER,,,,0,1,,,LSX RSLT
+LSX,rwabtfrfas,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwacdib2,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwacdib2epe,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwagroupnetpostcol,artos,NUMBER,,,,0,1,,,FTR LSX RSLT
+LSX,rwaofaddon,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwaofaddontrprv,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwap1grouppresec,artos,NUMBER,,,,0,1,,,LSX
+LSX,rwap1grouppresec_clo,artos,NUMBER,,,,0,1,,,LSX
+LSX,rwap1grouprelief,artos,NUMBER,,,,0,1,,,LSX RSLT
+LSX,rwap1presec,artos,NUMBER,,,,0,1,,,LSX
+LSX,rwap1presec_clo,artos,NUMBER,,,,0,1,,,LSX
+LSX,rwap1relief,artos,NUMBER,,,,0,1,,,LSX RSLT
+LSX,rwarepb2epe,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwarepubr,gcds,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwasecb2,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwasecb2comm,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwasecb2epe,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwasecprerwcap,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,rwatfrb2epe,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX_EXCL,rwab2epe,artos,NUMBER,,,,0,1,,,
+LSX_EXCL,rwaexclflg,artos,VARCHAR2,1,,,0,1,,,
+MRSEC_RSLT,rwacsmrsec,gcds,NUMBER,,,,,0,,,
+MRSEC_RSLT,rwacsofmrsec,gcds,NUMBER,,,,,0,,,
+MRSEC_RSLT,rwacsoftrprvmrsec,gcds,NUMBER,,,,,0,,,
+MRSEC_RSLT,rwajtdmrsec,gcds,NUMBER,,,,,0,,,
+MRSEC_RSLT,rwajtdofmrsec,gcds,NUMBER,,,,,0,,,
+MRSEC_RSLT,rwajtdoftrprvmrsec,gcds,NUMBER,,,,,0,,,
+OUTFTRAD,crdrwafctr,artos,NUMBER,,,,0,0,,,
+OUTFTRAD,crdrwafctraa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,crdrwafctrsa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,crdrwafctrtyp,artos,VARCHAR2,2,,,0,0,,,
+OUTFTRAD,crdrwafctrtypaa,artos,VARCHAR2,2,,,0,0,,,
+OUTFTRAD,crdrwafctrtypsa,artos,VARCHAR2,2,,,0,0,,,
+OUTFTRAD,mrsarwarep,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwab2,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwab2comm,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwab2epe,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwab2re,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwab2sec,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwab2sectrprv,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabaagrepes,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabaagrs,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabfagrs,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsacomm,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsaepe,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsare,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsareiitrprvdlt,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsaretrprv,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsaretrprvdlt,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsatrprv,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsatrprvcomm,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsatrprvcrpdlt,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsatrprvexpdlt,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsatrprvuccdlt,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwabsatrprvunratcorpdlt,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwacdib2,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwacdib2epe,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwacva,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwagroupnetpostcol,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwalenetpostcol,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwarepb2,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwarepb2epe,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwarepb2rtgmgepe,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecb2,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecb2comm,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecb2epe,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecerba,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecovrllcap,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecovrllcapcomm,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecovrllcaptrprv,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecovrllcaptrprvcomm,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecprecap,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecprecapcomm,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecprecaptrprv,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecprecaptrprvcomm,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecprerwcap,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecprerwcapcomm,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecprerwcaptrprv,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecprerwcaptrprvcomm,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecprvcrp,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecrwcap,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecrwcapcomm,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecrwcaptrprv,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecrwcaptrprvcomm,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwasecsa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwatfrb2,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,rwatfrb2epe,artos,NUMBER,,,,0,1,,,
+P3_FTR,rwab2epe,artos,NUMBER,,,,0,0,,,AV
+P3_FTR,rwasecprecap,artos,NUMBER,,,,0,0,,,AV
+P3_FTR,rwasecprerwcap,artos,NUMBER,,,,0,0,,,AV
+P3_FTR,rwatfrb2epe,artos,NUMBER,,,,0,0,,,AV
+POOL,plcovrrwa,artos,NUMBER,,,,0,0,,,
+PRESEC,mmrwabaa,artos,NUMBER,,,,0,1,,,
+PRESEC,mmrwabsa,artos,NUMBER,,,,0,1,,,
+PRESEC,mmrwabsatrprv,artos,NUMBER,,,,0,1,,,
+PRESEC,mreparwa,artos,VARCHAR2,100,,,0,1,,,
+PRESEC,mrepsrwa,artos,VARCHAR2,100,,,0,1,,,
+PRESEC,mrwaddon,artos,VARCHAR2,100,,,0,1,,,
+PRESEC,plcovrrwa,artos,NUMBER,,,,0,1,,,PRESEC2TRAN
+PRESEC,rwabaaaddon,artos,NUMBER,,,,0,1,,,PRESEC2TRAN
+PRESEC,rwabaacap,artos,NUMBER,,,,0,1,,,
+PRESEC,rwabaafxpresec,artos,NUMBER,,,,0,1,,,
+PRESEC,rwabaarep,artos,NUMBER,,,,0,1,,,PRESEC2TRAN
+PRESEC,rwabaareppresec,artos,NUMBER,,,,0,1,,,
+PRESEC,rwabaascpresec,artos,NUMBER,,,,0,1,,,
+PRESEC,rwabaatran,artos,NUMBER,,,,0,1,,,PRESEC2TRAN
+PRESEC,rwabsaaddon,artos,NUMBER,,,,0,1,,,PRESEC2TRAN
+PRESEC,rwabsacap,artos,NUMBER,,,,0,1,,,
+PRESEC,rwabsafxpresec,artos,NUMBER,,,,0,1,,,
+PRESEC,rwabsapresec,artos,NUMBER,,,,0,1,,,
+PRESEC,rwabsarep,artos,NUMBER,,,,0,1,,,PRESEC2TRAN
+PRESEC,rwabsareppresec,artos,NUMBER,,,,0,1,,,
+PRESEC,rwabsatran,artos,NUMBER,,,,0,1,,,PRESEC2TRAN
+PRESEC,rwabsatrantrprv,artos,NUMBER,,,,0,1,,,PRESEC2TRAN
+PRESEC,rwabsatrprvfxpresec,artos,NUMBER,,,,0,1,,,
+PRESEC,rwabsatrprvpresec,artos,NUMBER,,,,0,1,,,
+PRESEC,rwabtfraafxpresec,artos,NUMBER,,,,0,1,,,
+PRESEC,rwabtfraapresec,artos,NUMBER,,,,0,1,,,
+PRESEC,rwadbrectrn,artos,NUMBER,,,,0,1,,,
+PRESEC,rwasecerba,artos,NUMBER,,,,0,1,,,PRESEC2TRAN
+PRESEC,rwasecsa,artos,NUMBER,,,,0,1,,,PRESEC2TRAN
+PRESEC,rwatrch,artos,NUMBER,,,,0,1,,,
+PRESEC,srtmzrwar,artos,NUMBER,,,,0,1,,,
+PRESEC,srtmzrwarettrch,artos,NUMBER,,,,0,1,,,
+PRESEC,srtmzrwatottrch,artos,NUMBER,,,,0,1,,,
+PRESEC,srtmzrwatst,artos,VARCHAR2,1,,,0,1,,,
+RDBRET,crdrwafctraa,artos,NUMBER,,,,1,0,,,
+RDBRET,rwab2epe,artos,NUMBER,,,,1,0,,,
+RDBRET,rwabaa,artos,NUMBER,,,,1,0,,,
+RDBRET,rwabaagr,artos,NUMBER,,,,1,0,,,
+RDBRET,rwabaagrs,artos,NUMBER,,,,1,0,,,
+RDBRET,rwabaarep,artos,NUMBER,,,,1,0,,,
+RDBRET,rwabfa,artos,NUMBER,,,,1,0,,,
+RDBRET,rwabfagr,artos,NUMBER,,,,1,0,,,
+RDBRET,rwabfagrs,artos,NUMBER,,,,1,0,,,
+RDBRET,rwabfarep,artos,NUMBER,,,,1,0,,,
+RDBRET,rwabsaepe,artos,NUMBER,,,,1,0,,,
+RDBRET,rwabsarep,artos,NUMBER,,,,1,0,,,
+RDBRET,rwacdib2epe,artos,NUMBER,,,,1,0,,,
+RDBRET,rwagpnetpstcolb1,artos,NUMBER,,,,1,0,,,
+RDBRET,rwagroupgrprecol,artos,NUMBER,,,,1,0,,,
+RDBRET,rwagroupnetaddon,artos,NUMBER,,,,1,0,,,
+RDBRET,rwagroupnetdercol,artos,NUMBER,,,,1,0,,,
+RDBRET,rwagroupnetmtm,artos,NUMBER,,,,1,0,,,
+RDBRET,rwagroupnetpostcol,artos,NUMBER,,,,1,0,,,
+RDBRET,rwagroupnetpostcolcomm,artos,NUMBER,,,,1,0,,,
+RDBRET,rwagroupnetpostcolcommb1,artos,NUMBER,,,,1,0,,,
+RDBRET,rwagroupnetprecol,artos,NUMBER,,,,1,0,,,
+RDBRET,rwalegrprecol,artos,NUMBER,,,,1,0,,,
+RDBRET,rwalegrprecolb1,artos,NUMBER,,,,1,0,,,
+RDBRET,rwalenetpostcol,artos,NUMBER,,,,1,0,,,
+RDBRET,rwalenetprecol,artos,NUMBER,,,,1,0,,,
+RDBRET,rwalenetprecolb1,artos,NUMBER,,,,1,0,,,
+RDBRET,rwalenetpstcolb1,artos,NUMBER,,,,1,0,,,
+RDBRET,rwarepb2epe,artos,NUMBER,,,,1,0,,,
+RDBRET,rwarepubr,gcds,NUMBER,,,,1,0,,,
+RDBTRN,grrwa,gcds,NUMBER,,,,1,0,,,
+RWAALLOC_FTR,b2apprflg,artos,VARCHAR2,2,,,0,0,,,FR
+RWAALLOC_FTR,boid,artos,VARCHAR2,51,,,0,0,,,FR
+RWAALLOC_FTR,ccfbsa,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,ccpflg,artos,VARCHAR2,5,,,0,0,,,
+RWAALLOC_FTR,colratprehclgdmdl,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,colratprehcs1lgdmdl,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,colratprehcs2lgdmdl,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,colratprehcs3lgdmdl,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,colratprehcs4lgdmdl,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,cpylngncpy,gcds,VARCHAR2,255,,,0,0,,,FR
+RWAALLOC_FTR,cpytypb2,artos,VARCHAR2,4,,,0,0,,,
+RWAALLOC_FTR,cpytypb2l2,artos,VARCHAR2,20,,,0,0,,,
+RWAALLOC_FTR,crmslegetyid,gcds,NUMBER,,,,0,0,,,FR
+RWAALLOC_FTR,ctryreg,artos,VARCHAR2,3,,,0,0,,,
+RWAALLOC_FTR,dbetybrtrn,gcds,VARCHAR2,10,,,0,0,,,
+RWAALLOC_FTR,dbetyccdbtrn,gcds,NUMBER,,,,0,0,,,FR
+RWAALLOC_FTR,dfltb2trn,artos,VARCHAR2,1,,,0,0,,,
+RWAALLOC_FTR,eadb2,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,eadb2epe,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,eadbaaepe,artos,NUMBER,,,,0,0,,,FR
+RWAALLOC_FTR,eadbaaepelgdmdl,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,eadcolb2,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,eadcolb2epe,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,eadgarb2,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,eadgarb2epe,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,eadgarbaa,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,elbe,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,epecalcused,artos,VARCHAR2,3,,,0,0,,,
+RWAALLOC_FTR,expclscrp,artos,VARCHAR2,16,,,0,0,,,
+RWAALLOC_FTR,feedfleid,gcds,VARCHAR2,15,,,0,0,,,FR
+RWAALLOC_FTR,frlimb2,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,grcprdtyptrn,gcds,NUMBER,,,,0,0,,,FR
+RWAALLOC_FTR,ifrsposd,artos,VARCHAR2,10,,,0,0,,,
+RWAALLOC_FTR,ifrsvue,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,inst_id,artos,VARCHAR2,5,,,0,0,,,FR
+RWAALLOC_FTR,jbrwgarbaa,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,jlgdgarbaa,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,jpdgarbaa,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,legetyccdb,gcds,NUMBER,,15,,0,0,,,FR
+RWAALLOC_FTR,lgdaddonreg,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,lgdbaa,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,lgdbfa,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,lgdmdl,artos,VARCHAR2,7,,,0,0,,,FR
+RWAALLOC_FTR,lgdmdlkey,artos,VARCHAR2,40,,,0,0,,,
+RWAALLOC_FTR,lgdreg,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,lgdsgm,artos,VARCHAR2,15,,,0,0,,,FR
+RWAALLOC_FTR,lralgd,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,matnet1y,artos,VARCHAR2,1,,,0,0,,,
+RWAALLOC_FTR,orgtrnid,gcds,VARCHAR2,100,,,0,0,,,FR
+RWAALLOC_FTR,orgtrnidsce,gcds,VARCHAR2,40,,,0,0,,,FR
+RWAALLOC_FTR,pitlgd,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,rai_key,artos,VARCHAR2,40,,,0,0,,,FR
+RWAALLOC_FTR,remlifetimeb2epe,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,remlifetimerepb2,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,remlifetimerepb2cls,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,repety,artos,VARCHAR2,5,,,0,0,,,FR
+RWAALLOC_FTR,rlepe,artos,VARCHAR2,1,,,0,0,,,FR
+RWAALLOC_FTR,rlsecb2,artos,VARCHAR2,1,,,0,0,,,
+RWAALLOC_FTR,rltrnb2,artos,VARCHAR2,1,,,0,0,,,FR
+RWAALLOC_FTR,rwab2epe,artos,NUMBER,,,,0,0,,,FR
+RWAALLOC_FTR,rwabsa,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,rwacdib2epe,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,rwarepb2epe,artos,NUMBER,,,,0,0,,,FR
+RWAALLOC_FTR,rwb2epe,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,rwbsa,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,trbkflgtrn,gcds,VARCHAR2,1,,,0,0,,,
+RWAALLOC_FTR,trnid,gcds,VARCHAR2,100,,,0,0,,,FR
+RWAALLOC_FTR,trnidsce,gcds,VARCHAR2,40,,,0,0,,,FR
+RWAALLOC_FTR,ubrtrn,gcds,NUMBER,,,,0,0,,,FR
+RWASUMMARY,b2apprflgsec,artos,VARCHAR2,2,,,0,1,,,
+RWASUMMARY,calcstyle,artos,VARCHAR2,20,,,0,1,,,
+RWASUMMARY,cdibaafxpresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,cdibaapresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,cdibsafxpresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,cdibsapresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,crd2cmplcrdgrnt,artos,VARCHAR2,1,,,0,1,,,
+RWASUMMARY,eadbaafxpresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,eadbsafxpresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,elbaafxpresec,artos,NUMBER,,,,,1,,,
+RWASUMMARY,elbaapresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,elbtfraapresec,artos,NUMBER,,,,,1,,,
+RWASUMMARY,kirbbaa,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,mmrwabaaagg,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,mmrwabsaagg,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,mmrwabsatrprvagg,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,mmrwbaapresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,mrwarlf,artos,VARCHAR2,100,,,0,1,,,
+RWASUMMARY,notbaafxpresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,notbsafxpresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rskprvbalbaapresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rskprvbalbsapresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabaacap,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabaafxpresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabaarelief,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabaarepagg,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabaarepdedagg,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabaareppresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabaarepsum,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabaascpresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsacap,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsafxpresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsapresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsarelief,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsarepagg,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsarepdedagg,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsareppresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsarepsum,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsareptrprvagg,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsareptrprvsum,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsatrprvcap,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsatrprvfxpresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabsatrprvrelief,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabtfraafxpresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,rwabtfraapresec,artos,NUMBER,,,,,1,,,
+RWASUMMARY,rwarlfbaa,artos,VARCHAR2,1,,,0,1,,,
+RWASUMMARY,rwarlfbsa,artos,VARCHAR2,1,,,0,1,,,
+RWASUMMARY,rwarlfbsatrprv,artos,VARCHAR2,1,,,0,1,,,
+RWASUMMARY,sectrnid,artos,VARCHAR2,30,,,0,1,,,
+RWASUMMARY,sectrnidtyp,artos,VARCHAR2,3,,,0,1,,,
+RWASUMMARY,srtindf,artos,VARCHAR2,1,,,0,1,,,
+RWASUMMARY,srtqultvtst,artos,VARCHAR2,1,,,0,1,,,
+RWASUMMARY,tcdo,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,totprvbaapresec,artos,NUMBER,,,,0,1,,,
+SBP_COL,crdrwafctraa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_COL,msbpcrwa,artos,VARCHAR2,100,,,0,0,,,CALC
+SBP_COL,rwacolcd,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,rwacolcre,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,rwacolfin,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,rwacolguar,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,rwacolmdl,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,rwacolna,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,rwacolofp,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,rwacoloth,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,rwacoloucp,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,rwacolrec,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,rwacolrre,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,rwaguaruncol,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl10_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl11_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl12_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl13_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl14_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl15_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl16_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl17_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl18_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl19_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl1_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl20_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl21_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl22_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl23_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl24_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl2_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl3_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl4_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl5_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl6_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl7_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl8_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpcolmdl9_rwa,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpdclrwacol,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpdclrwacolgar,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpdclrwagar,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbprwafactor,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_FTR,crdrwafctraa,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,msbprwaf,artos,VARCHAR2,100,,,0,0,,,CALC
+SBP_FTR,rwab2comm,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,rwab2epe,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,rwabsaepe,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,rwacolcd,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,rwacolcre,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,rwacolfin,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,rwacolguar,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,rwacolna,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,rwacolofp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,rwacoloth,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,rwacoloucp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,rwacolrec,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,rwacolrre,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,rwaguaruncol,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,rwatfrb2epe,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,rwatrnuncol,artos,NUMBER,,,,0,0,,,CALC ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl10_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl11_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl12_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl13_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl14_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl15_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl16_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl17_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl18_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl19_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl1_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl20_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl21_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl22_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl23_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl24_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl2_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl3_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl4_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl5_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl6_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl7_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl8_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbpcolmdl9_rwa,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYRWA
+SBP_FTR,sbprwacol,artos,NUMBER,,,,0,0,,,CALC POSTCOL
+SBP_FTR,sbprwafactor,artos,NUMBER,,,,0,0,,,CALC
+SBP_FTR,sbprwafactorflg,artos,VARCHAR2,1,,,0,0,,,CALC
+SBP_FTR,sbprwauncol,artos,NUMBER,,,,0,0,,,CALC POSTCOL
+SBP_FTRHIST,rwab2epe,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTRHIST,rwabsaepe,artos,NUMBER,,,,0,0,,,FTR
+SBP_MDL,model_rwa,artos,NUMBER,,,,0,0,,,CALC AV
+SBP_MDL,rwa_avalusgmdl,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,rwa_lefmdl,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,rwa_pdmdl,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,rwa_sevmdl,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl10_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl11_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl12_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl13_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl14_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl15_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl16_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl17_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl18_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl19_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl1_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl20_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl21_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl22_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl23_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl24_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl2_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl3_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl4_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl5_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl6_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl7_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl8_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,sbpcolmdl9_rwa,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_PTF,crdrwafctraa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,delta_rwa_1y_high,artos,NUMBER,,,,0,0,,,CALC AV
+SBP_PTF,delta_rwa_1y_low,artos,NUMBER,,,,0,0,,,CALC AV
+SBP_PTF,delta_rwa_5y_high,artos,NUMBER,,,,0,0,,,CALC AV
+SBP_PTF,delta_rwa_5y_low,artos,NUMBER,,,,0,0,,,CALC AV
+SBP_PTF,msbpdrwa,artos,VARCHAR2,100,,,0,0,,,CALC
+SBP_PTF,rwa_avalusgmdl,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,rwa_base_1y,artos,NUMBER,,,,0,0,,,CALC AV
+SBP_PTF,rwa_base_5y,artos,NUMBER,,,,0,0,,,CALC AV
+SBP_PTF,rwa_lefmdl,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,rwa_pdmdl,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,rwa_sevmdl,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,rwab2comm,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,rwab2epe,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,rwabsaepe,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,rwacolcd,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,rwacolcre,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,rwacolfin,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,rwacolguar,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,rwacolofp,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,rwacoloth,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,rwacoloucp,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,rwacolrec,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,rwacolrre,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,rwatfrb2epe,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl10_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl10_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl11_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl11_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl12_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl12_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl13_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl13_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl14_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl14_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl15_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl15_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl16_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl16_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl17_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl17_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl18_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl18_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl19_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl19_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl1_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl1_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl20_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl20_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl21_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl21_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl22_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl22_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl23_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl23_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl24_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl24_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl2_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl2_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl3_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl3_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl4_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl4_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl5_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl5_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl6_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl6_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl7_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl7_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl8_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl8_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbpcolmdl9_rwa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpcolmdl9_rwatot,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,sbprwacol,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbprwafactor,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbprwauncol,artos,NUMBER,,,,0,0,,,SBP_FTR
+SECDM,plcovrrwa,artos,NUMBER,,,,0,1,,,DM2 PRESEC2SEC DEAL_LEV
+SECDM,rwabaacap,artos,NUMBER,,,,0,1,,,PRESEC2SEC DEAL_LEV
+SECDM,rwabaascpresec,artos,NUMBER,,,,0,1,,,PRESEC2SEC DEAL_LEV
+SECDM,rwabsacap,artos,NUMBER,,,,0,1,,,PRESEC2SEC DEAL_LEV
+SECDM,rwacsoftrprvmrsec,artos,NUMBER,,,,0,1,,,MRSEC
+SECDM,rwadbrectrn,artos,NUMBER,,,,0,1,,,ORIG PRESEC2SEC TRAN_LEV
+SECDM,rwadbtrn,artos,NUMBER,,,,0,1,,,FTR
+SECDM,rwasecovrllcap,artos,NUMBER,,,,0,1,,,FTR
+SECDM,rwasecprecap,artos,NUMBER,,,,0,1,,,FTR
+SECDM,rwasecrwcap,artos,NUMBER,,,,0,1,,,FTR
+SECDM,rwatrch,artos,NUMBER,,,,0,1,,,ORIG PRESEC2SEC TRAN_LEV
+SECDM,spcfcbalrwa,artos,NUMBER,,,,0,0,,,
+SECDM,srtmzrwar,artos,NUMBER,,,,0,1,,,TEST PRESEC2SEC DEAL_LEV
+SECDM,srtmzrwarettrch,artos,NUMBER,,,,0,1,,,TEST TRCH PRESEC2SEC TRAN_LEV
+SECDM,srtmzrwatottrch,artos,NUMBER,,,,0,1,,,TEST TRCH PRESEC2SEC TRAN_LEV
+SECDM,srtmzrwatst,artos,VARCHAR2,1,,,0,1,,,TEST PRESEC2SEC DEAL_LEV
+TRN,grrwa,gcds,NUMBER,,,,15,1,,,
+TRN,rwarepubr,gcds,NUMBER,,,,13,1,,,
+B2INT,eadb2ccy,artos,VARCHAR2,3,,,4,1,,,
+B2TRNCH,eadb2epe,artos,NUMBER,,,,0,1,,,
+B2TRNCH,eadbaa,artos,NUMBER,,,,0,0,,,
+B2TRNCH,eadbaaccy,artos,VARCHAR2,3,,,0,0,,,
+B2TRNCH,eadbaaepe,artos,NUMBER,,,,0,1,,,
+B2TRNCH,eadbfa,artos,NUMBER,,,,0,0,,,
+B2TRNCH,eadbsa,artos,NUMBER,,,,0,0,,,
+B2TRNCH,eadbsaccy,artos,VARCHAR2,3,,,0,0,,,
+B2TRNCH,eadbsaepe,artos,NUMBER,,,,0,0,,,
+B2TRNCH,eadbsatrprv,artos,NUMBER,,,,0,0,,,
+B2TRNCH,eadcolb2epe,artos,NUMBER,,,,0,1,,,
+B2TRNCH,eadcolbaa,artos,NUMBER,,,,0,0,,,
+B2TRNCH,eadcolbaaepe,artos,NUMBER,,,,0,1,,,
+B2TRNCH,eadcolbsa,artos,NUMBER,,,,0,0,,,
+B2TRNCH,eadcolbsaepe,artos,NUMBER,,,,0,0,,,
+B2TRNCH,eadgarb2epe,artos,NUMBER,,,,0,1,,,
+B2TRNCH,eadgarbaa,artos,NUMBER,,,,0,0,,,
+B2TRNCH,eadgarbsa,artos,NUMBER,,,,0,0,,,
+B2TRNCH,meadepe,artos,VARCHAR2,100,,,0,1,,,
+B2TRNCH,plcovread,artos,NUMBER,,,,0,1,,,
+BSKTDCMP_CEDULA,ead,artos,NUMBER,,,,0,1,,,
+CFG_DBVMTX,dbv_eadb2,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_eadb2ccy,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_eadb2epe,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_eadbaa,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_eadbaaccy,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_eadbaaepe,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_eadbfa,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_eadbsa,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_eadbsaccy,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_eadbsaepe,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_eadbsatrprv,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_eadcolb2,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_eadcolb2epe,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_eadcolbaaepe,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_eadcolbsa,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_eadcolbsaepe,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_eadgarb2,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_eadgarb2epe,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,dbv_secifrsvueadj,cfg,VARCHAR2,3,,,0,0,,,
+CFG_DBVMTX,eadsaccr,artos,NUMBER,,,,0,0,,,
+CFG_DBVMTX,eadsaccrepe,artos,NUMBER,,,,0,0,,,
+CFG_DBVMTX,eadsaccrmod,artos,NUMBER,,,,0,0,,,
+CFG_DBVMTX,eaduncolsaccr,artos,NUMBER,,,,0,0,,,
+CFG_DBVMTX,eaduncolsaccrepe,artos,NUMBER,,,,0,0,,,
+CFG_DBVMTX,eaduncolsaccrmod,artos,NUMBER,,,,0,0,,,
+COREP_COL,eadbaa,artos,NUMBER,,,,0,0,,,FTR
+COREP_COL,eadbaaepe,artos,NUMBER,,,,0,0,,,FTR
+COREP_COL,eadbsa,artos,NUMBER,,,,0,0,,,FTR
+COREP_FTR,_eadsecpriv,artos,NUMBER,,,,0,0,,,CALC AV
+COREP_FTR,_eadsecunpriv,artos,NUMBER,,,,0,0,,,CALC AV
+COREP_FTR,_eadunsec,artos,NUMBER,,,,0,0,,,CALC AV
+COREP_FTR,eadb2,artos,NUMBER,,,,0,0,,,AV COPY2EPE ORIG_NBPINV
+COREP_FTR,eadb2epe,artos,NUMBER,,,,0,0,,,AV ORIG_NBPINV FTRCPY
+COREP_FTR,eadb2epesign,artos,NUMBER,,,,0,0,,,CALC AK
+COREP_FTR,eadbdl,artos,NUMBER,,,,0,0,,,
+COREP_FTR,eadbdlfa,artos,NUMBER,,,,0,0,,,
+COREP_FTR,eadbsa,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,eadbsatrprv,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,eadcolb2,artos,NUMBER,,,,0,0,,,AV COPY2EPE ORIG_NBPINV
+COREP_FTR,eadcolb2epe,artos,NUMBER,,,,0,0,,,AV ORIG_NBPINV
+COREP_FTR,eadcolb2re,artos,NUMBER,,,,0,0,,,
+COREP_FTR,eadcolbsa,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,eadgarb2,artos,NUMBER,,,,0,0,,,AV COPY2EPE ZERO_DLT ORIG_NBPINV
+COREP_FTR,eadgarbaadd,artos,NUMBER,,,,0,0,,,
+COREP_FTR,eadgarbaaepe,artos,NUMBER,,,,0,1,,,AV
+COREP_FTR,eadsaccrmrg,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,eadsec,artos,NUMBER,,,,0,0,,,CALC AV
+COREP_FTR,eaduncolsaccr,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,eaduncolsaccrepe,artos,NUMBER,,,,0,0,,,AV
+COREP_FTR,sfteadgr,artos,NUMBER,,,,0,0,,,AV
+COREP_MROR,eadb2ccy,artos,VARCHAR2,3,,,3,0,,,BK
+COREP_SEC,eadtrch,artos,NUMBER,,,,0,0,,,AV
+COREP_SEC,plcovread,artos,NUMBER,,,,0,0,,,AV
+COREP_SEC,plcovreadfx,artos,NUMBER,,,,0,0,,,AV
+COREP_SEC,plead,artos,NUMBER,,,,0,0,,,AV
+COREP_SEC,pleadfx,artos,NUMBER,,,,0,0,,,AV
+COREP_SEC,plvueadjprvltd,artos,NUMBER,,,,0,0,,,AV
+COREP_SEC,plvueadjprvytd,artos,NUMBER,,,,0,0,,,AV
+CRIPLOSSESHIST,eadbsaepe,artos,NUMBER,,,,0,1,,,
+CRIPLOSSESHIST,eadcolbsanre,artos,NUMBER,,,,0,1,,,
+CRIPLOSSESHIST,eadcolbsare,artos,NUMBER,,,,0,1,,,
+CRST,eadb2,artos,NUMBER,,,,0,0,,,
+CRST,eadb2ccy,artos,VARCHAR2,3,,,0,0,,,
+CRST,eadb2epe,artos,NUMBER,,,,0,0,,,
+CRST,eadbaa,artos,NUMBER,,,,0,0,,,
+CRST,eadbaaepe,artos,NUMBER,,,,0,0,,,
+CRST,eadbaaswp,artos,NUMBER,,,,0,0,,,
+CRST,eadbdl,artos,NUMBER,,,,0,0,,,
+CRST,eadbsa,artos,NUMBER,,,,0,0,,,
+CRST,eadcolb2,artos,NUMBER,,,,0,0,,,
+CRST,eadcolb2epe,artos,NUMBER,,,,0,0,,,
+CRST,eadcolbaa,artos,NUMBER,,,,0,0,,,
+CRST,eadcolbaaeba,artos,NUMBER,,,,0,0,,,
+CRST,eadcolbaaepe,artos,NUMBER,,,,0,0,,,
+CRST,eadcolbsa,artos,NUMBER,,,,0,0,,,
+CRST,eadcolpb2,artos,NUMBER,,,,0,0,,,
+CRST,eadcolpbsa,artos,NUMBER,,,,0,0,,,
+CRST,eadgarb2,artos,NUMBER,,,,0,0,,,
+CRST,eadgarb2epe,artos,NUMBER,,,,0,0,,,
+CRST,eadgarbaa,artos,NUMBER,,,,0,0,,,
+CRST,eadgarbaaepe,artos,NUMBER,,,,0,0,,,
+CRST,eadgarbsa,artos,NUMBER,,,,0,0,,,
+DMB2INT,eadb2,artos,NUMBER,,,,27,1,,,
+DMB2INT,eadb2ccy,artos,VARCHAR2,3,,,13,1,,,
+DMB2INT,eadb2epe,artos,NUMBER,,,,28,1,,,
+DMB2INT,eadcolb2,artos,NUMBER,,,,35,1,,,
+DMB2INT,eadcolb2epe,artos,NUMBER,,,,36,1,,,
+DMB2INT,eadgarb2,artos,NUMBER,,,,72,1,,,
+DMB2INT,eadgarb2epe,artos,NUMBER,,,,73,1,,,
+EBAFAC,eadbaaepedfltlgd3,artos,NUMBER,,,,0,1,,,
+EBAFAC,eadbaaepelgd3,artos,NUMBER,,,,0,1,,,CPY_WGT
+EBAFAC,rcvyrateadlgd3,artos,NUMBER,,,,0,1,,,
+FCC,nomvuegareadlgd3,artos,NUMBER,,,,0,1,,,FCP
+FCC,vueprehceadlgd3,artos,NUMBER,,,,0,1,,,FCA
+FINREP_FTR,eadb2epe,artos,NUMBER,,,,0,0,,,
+FINREP_FTR,eadcolb2epe,artos,NUMBER,,,,0,0,,,
+FTR,eadb2epend,artos,NUMBER,,,,0,0,,,PLGDCORR E2FTR
+FTR,eadbdlfa,artos,NUMBER,,,,0,0,,,PLGDCORR
+FTR,eadbsawouccphasein,artos,NUMBER,,,,0,0,,,PFLAT PCOLLAT PLGDCORR E2FTR
+FTR,eadcolb2epend,artos,NUMBER,,,,0,0,,,PLGDCORR E2FTR
+FTR,eadcolfbaaflr,artos,NUMBER,,,,0,0,,,PCOLLAT
+FTR,eadcolfbaaflrepe,artos,NUMBER,,,,0,0,,,PCOLLAT
+FTR,eadcollgdmdlcapfflr,artos,NUMBER,,,,0,0,,,PLGDCORR PCOLLAT
+FTR,eadcollgdmdlcappflr,artos,NUMBER,,,,0,0,,,PLGDCORR PCOLLAT
+FTR,eadcollgdmdlcaprflr,artos,NUMBER,,,,0,0,,,PLGDCORR PCOLLAT
+FTR,eadcollgdmdlcapxflr,artos,NUMBER,,,,0,0,,,PLGDCORR PCOLLAT
+FTR,eadcolpbaaflr,artos,NUMBER,,,,0,0,,,PCOLLAT PLGDCORR
+FTR,eadcolpbaaflrepe,artos,NUMBER,,,,0,0,,,PCOLLAT PLGDCORR
+FTR,eadcolrbaaflr,artos,NUMBER,,,,0,0,,,PCOLLAT
+FTR,eadcolrbaaflrepe,artos,NUMBER,,,,0,0,,,PCOLLAT
+FTR,eadcolxbaaflr,artos,NUMBER,,,,0,0,,,PCOLLAT
+FTR,eadcolxbaaflrepe,artos,NUMBER,,,,0,0,,,PCOLLAT
+FTR,sfteadsvaaflt,artos,NUMBER,,,,0,0,,,PFLAT
+FTRRAD,mcvaeadr,artos,VARCHAR2,100,,,0,1,,,PLGDCORR PTREE
+FTRRAD,meadbaa,artos,VARCHAR2,100,,,0,1,,,PFLAT PQRRTRN PTREE
+FTRRAD,meadbsa,artos,VARCHAR2,100,,,0,1,,,PFLAT PTREE
+FTRRAD,meadbsre,artos,VARCHAR2,100,,,0,1,,,PLGDCORR E2FTR PTREE
+FTRRAD,meadglgd,artos,VARCHAR2,100,,,0,1,,,PLGDCORR PTREE
+FTRRAD,meadpfe,artos,VARCHAR2,100,,,0,1,,,PFLAT PTREE
+FTRRB2,eadb2,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR CCS
+FTRRB2,eadb2ccy,artos,VARCHAR2,3,,,0,1,,,PLGDCORR CCS
+FTRRB2,eadb2epe,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,eadbaa,artos,NUMBER,,,,0,1,,,PFLAT PQRRTRN PCOLLAT PLGDCORR CCS
+FTRRB2,eadbaacpy,artos,NUMBER,,,,0,1,,,PQRRTRN
+FTRRB2,eadbaaepe,artos,NUMBER,,,,0,1,,,PFLAT PQRRTRN PCOLLAT PLGDCORR CCS
+FTRRB2,eadbaaepeorig,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,eadbaaorig,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,eadbaaswp,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,eadbdl,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,eadbfa,artos,NUMBER,,,,0,1,,,PFLAT PCOLLAT PLGDCORR E2FTR CCS
+FTRRB2,eadbfaorig,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,eadbfaswp,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,eadbsacpy,artos,NUMBER,,,,0,1,,,PQRRTRN
+FTRRB2,eadbtfraa,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,eadbtfrfa,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,eadcolb2,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,eadcolb2epe,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,eadcolb2re,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,eadcolbaaepe,artos,NUMBER,,,,0,1,,,PFLAT PCOLLAT PLGDCORR
+FTRRB2,eadcolbaafin,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR
+FTRRB2,eadcolbaaofp,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR
+FTRRB2,eadcolbaaoth,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR
+FTRRB2,eadcolbaare,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR
+FTRRB2,eadcolbaarec,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR
+FTRRB2,eadcolbsanre,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,eadcolbsare,artos,NUMBER,,,,0,1,,,PLGDCORR E2FTR
+FTRRB2,eadcolbtfraa,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,eadcolfb2,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,eadcolfbfa,artos,NUMBER,,,,0,1,,,PFLAT PCOLLAT PLGDCORR E2FTR
+FTRRB2,eadcolfbsa,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,eadcolfbsaepe,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,eadcolfchrgbfa,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,eadcolpb2,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,eadcolpbfa,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,eadcolpbsa,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,eadcolpbsaepe,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,eadcolpchrgbfa,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,eadcolrbfa,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,eadcolrchrgbfa,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,eadcolxbfa,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,eadcolxchrgbfa,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,eadgarb2,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,eadgarb2epe,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,eadgarbaa,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR
+FTRRB2,eadgarbaabsa,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR
+FTRRB2,eadgarbaaepe,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR
+FTRRB2,eadgarbaaepebsa,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR
+FTRRB2,eadgarbaaepedd,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR
+FTRRB2,eadgarbfa,artos,NUMBER,,,,0,1,,,PCOLLAT CCS
+FTRRB2,eadgarbfabsa,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,eadgarbtfraa,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRRB2,eadgarlgdmdlcapbsa,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,eaduncolbfa,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRB2,meadbfa,artos,VARCHAR2,100,,,0,1,,,PFLAT PTREE
+FTRRB2,plcovread,artos,NUMBER,,,,0,1,,,PFLAT
+FTRRBS,eadcolsmbsa,artos,NUMBER,,,,0,1,,,PFLAT PCOLLAT PLGDCORR CCS
+FTRRBS,eadsaccr,artos,NUMBER,,,,0,1,,,PFLAT
+FTRRBS,eadsaccrepe,artos,NUMBER,,,,0,1,,,PFLAT
+FTRRBS,eadsaccrmod,artos,NUMBER,,,,,1,,,PFLAT
+FTRRBS,eadsaccrmrg,artos,NUMBER,,,,0,1,,,PFLAT
+FTRRBS,eadsaccrmrgepe,artos,NUMBER,,,,0,1,,,PFLAT
+FTRRBS,eadsaccrmrgmod,artos,NUMBER,,,,0,1,,,PFLAT
+FTRRBS,eadsaccrunmrg,artos,NUMBER,,,,0,1,,,PFLAT
+FTRRBS,eadsaccrunmrgepe,artos,NUMBER,,,,0,1,,,PFLAT
+FTRRBS,eadsaccrunmrgmod,artos,NUMBER,,,,0,1,,,PFLAT
+FTRRBS,eaduncolsaccr,artos,NUMBER,,,,0,1,,,PFLAT
+FTRRBS,eaduncolsaccrepe,artos,NUMBER,,,,0,1,,,PFLAT
+FTRRBS,eaduncolsaccrmod,artos,NUMBER,,,,,1,,,PFLAT
+FTRRBS,sfteadgr,artos,NUMBER,,,,0,1,,,PFLAT CCS
+FTRRBS,sfteadsvaa,artos,NUMBER,,,,0,1,,,PFLAT
+FTRRET,eadbsaswp,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRRET,eadcolbaaeba,artos,NUMBER,,,,0,1,,,E2FTR
+FTRRET,eadgarbaadd,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR CCS
+FTRRET,eadgarbfadd,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRREV,eadbaaccy,artos,VARCHAR2,3,,,0,1,,,PFLAT CCS
+FTRREV,eadbaaepedflt,artos,NUMBER,,,,0,1,,,PQRRTRN
+FTRREV,eadbaaepedflthst,artos,NUMBER,,,,0,1,,,PFLAT
+FTRREV,eadbaaepelgdmdl,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadbfaccy,artos,VARCHAR2,3,,,0,1,,,PFLAT
+FTRREV,eadbsa,artos,NUMBER,,,,0,1,,,PFLAT PCOLLAT PLGDCORR E2FTR
+FTRREV,eadbsaccy,artos,VARCHAR2,3,,,0,1,,,PFLAT CCS
+FTRREV,eadbsaepe,artos,NUMBER,,,,0,1,,,PFLAT PCOLLAT PLGDCORR E2FTR CCS
+FTRREV,eadbsaepeorig,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRREV,eadbsaorig,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRREV,eadbsatrprv,artos,NUMBER,,,,0,1,,,PFLAT PCOLLAT PLGDCORR E2FTR
+FTRREV,eadcolbaa,artos,NUMBER,,,,0,1,,,PFLAT PCOLLAT PLGDCORR
+FTRREV,eadcolbfa,artos,NUMBER,,,,0,1,,,PFLAT PCOLLAT PLGDCORR
+FTRREV,eadcolbsa,artos,NUMBER,,,,0,1,,,PFLAT PCOLLAT PLGDCORR E2FTR
+FTRREV,eadcolbsaepe,artos,NUMBER,,,,0,1,,,PFLAT PCOLLAT PLGDCORR E2FTR
+FTRREV,eadcolfflr,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR
+FTRREV,eadcollgd3cap,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadcollgd3capfin,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadcollgd3capofp,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadcollgd3capoth,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadcollgd3capre,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadcollgd3caprec,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadcollgd3fflr,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRREV,eadcollgd3pflr,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRREV,eadcollgd3rflr,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRREV,eadcollgd3xflr,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRREV,eadcollgdmdlcap,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadcollgdmdlcapfin,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadcollgdmdlcapofp,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadcollgdmdlcapoth,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadcollgdmdlcapre,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadcollgdmdlcaprec,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadcolpflr,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR
+FTRREV,eadcolrflr,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR
+FTRREV,eadcolxflr,artos,NUMBER,,,,0,1,,,PCOLLAT PLGDCORR
+FTRREV,eadgarbsa,artos,NUMBER,,,,0,1,,,PFLAT PQRRTRN PCOLLAT CCS E2FTR
+FTRREV,eadgarbsaepe,artos,NUMBER,,,,0,1,,,PFLAT PQRRTRN PCOLLAT CCS E2FTR
+FTRREV,eadgarlgd3cap,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadgarlgd3capbsa,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadgarlgdmdlcap,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadgarmdlngbaa,artos,NUMBER,,,,0,1,,,PLGDCORR PCOLLAT
+FTRREV,eadgarmdlnglgdmdlcap,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadgarmdlnglgdmdlcapflr,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,eadgarmdlngrwflr,artos,NUMBER,,,,0,1,,,PLGDCORR
+FTRREV,toteadbsa,artos,NUMBER,,,,0,1,,,PCOLLAT
+FTRREV,toteadbsaepe,artos,NUMBER,,,,0,1,,,PCOLLAT
+INAUADJ,eadb2,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadb2ccy,artos,VARCHAR2,3,,,0,1,,,
+INAUADJ,eadb2epe,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadbaa,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadbaaccy,artos,VARCHAR2,3,,,0,1,,,
+INAUADJ,eadbaacpy,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadbaaepe,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadbaaepelgdmdl,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadbdl,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadbfa,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadbsa,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadbsaccy,artos,VARCHAR2,3,,,0,1,,,
+INAUADJ,eadbsacpy,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadbsaepe,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadbsatrprv,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadcolb2,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadcolb2epe,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadcolb2re,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadcolbaa,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadcolbaaepe,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadcolbsa,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadcolbsaepe,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadcolfbfa,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadcolpbfa,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadcolrbfa,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadcolsmbsa,artos,NUMBER,,,,0,0,,,
+INAUADJ,eadcolxbfa,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadgarb2,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadgarb2epe,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadgarbaa,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadgarbfa,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadgarbsa,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadsaccr,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadsaccrepe,artos,NUMBER,,,,0,1,,,
+INAUADJ,eadsaccrmod,artos,NUMBER,,,,,1,,,
+INAUADJ,eaduncolsaccr,artos,NUMBER,,,,0,1,,,
+INAUADJ,eaduncolsaccrepe,artos,NUMBER,,,,0,1,,,
+INAUADJ,eaduncolsaccrmod,artos,NUMBER,,,,,1,,,
+INAUADJ,secifrsvueadj,gcds,NUMBER,,,,0,1,,,
+INAUADJ,sfteadgr,artos,NUMBER,,,,0,1,,,
+INFTRADJ,eadb2,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadb2ccy,artos,VARCHAR2,3,,,0,0,,,
+INFTRADJ,eadb2epe,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadbaa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadbaaccy,artos,VARCHAR2,3,,,0,0,,,
+INFTRADJ,eadbaacpy,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadbaaepe,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadbaaepelgdmdl,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadbdl,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadbfa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadbsa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadbsaccy,artos,VARCHAR2,3,,,0,0,,,
+INFTRADJ,eadbsacpy,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadbsaepe,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadbsatrprv,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadcolb2,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadcolb2epe,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadcolb2re,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadcolbaa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadcolbaaepe,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadcolbsa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadcolbsaepe,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadcolfbfa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadcolpbfa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadcolrbfa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadcolsmbsa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadcolxbfa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadgarb2,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadgarb2epe,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadgarbaa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadgarbfa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadgarbsa,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadsaccr,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadsaccrepe,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eadsaccrmod,artos,NUMBER,,,,,0,,,
+INFTRADJ,eaduncolsaccr,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eaduncolsaccrepe,artos,NUMBER,,,,0,0,,,
+INFTRADJ,eaduncolsaccrmod,artos,NUMBER,,,,,0,,,
+INFTRADJ,secifrsvueadj,gcds,NUMBER,,,,0,0,,,
+INFTRADJ,sfteadgr,artos,NUMBER,,,,0,0,,,
+INTRADFT,eadbaa,artos,NUMBER,,,,20,1,,,
+INTRADFT,eadbfa,artos,NUMBER,,,,21,1,,,
+INTRADFT,eadbsaepe,artos,NUMBER,,,,22,1,,,
+KANNON_LGD,callspreadexposure,kannon,NUMBER,,,,0,0,,,
+KWGFTR,eadbaa,artos,NUMBER,,,,0,0,,,
+KWGFTR,eadbaaepe,artos,NUMBER,,,,0,0,,,
+KWGFTR,eadcolbaa,artos,NUMBER,,,,0,0,,,
+KWGFTR,eadcolbaaepe,artos,NUMBER,,,,0,0,,,
+KWGFTR,eadgarbaa,artos,NUMBER,,,,0,0,,,
+LCX,dclvuedrwneadlgd3,artos,NUMBER,,,,0,1,,,
+LCX,dclvueeadlgd3cap,artos,NUMBER,,,,0,1,,,
+LCX,dclvuefrlimeadlgd3,artos,NUMBER,,,,0,1,,,
+LSX,eadb2,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadb2ccy,artos,VARCHAR2,3,,,,0,,,FTR RSLT
+LSX,eadb2epe,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadbaa,artos,NUMBER,,,,0,1,,,FTR LSX RSLT
+LSX,eadbaaccy,artos,VARCHAR2,3,,,,0,,,FTR RSLT
+LSX,eadbaaclo,artos,NUMBER,,,,0,1,,,LSX RSLT
+LSX,eadbaaepe,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadbfa,artos,NUMBER,,,,0,1,,,FTR LSX RSLT
+LSX,eadbfaccy,artos,VARCHAR2,3,,,,0,,,FTR RSLT
+LSX,eadbfaclo,artos,NUMBER,,,,0,1,,,LSX RSLT
+LSX,eadbsa,artos,NUMBER,,,,0,1,,,FTR LSX RSLT
+LSX,eadbsaccy,artos,VARCHAR2,3,,,,0,,,FTR RSLT
+LSX,eadbsaclo,artos,NUMBER,,,,0,1,,,LSX RSLT
+LSX,eadbsaepe,artos,NUMBER,,,,0,1,,,FTR LSX RSLT
+LSX,eadbsatrprv,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadcolb2epe,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadcolbaa,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadcolbaaepe,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadcolbaare,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadcolbfa,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadcolbsa,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadcolbsaepe,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadcolbsanre,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadcolbsare,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadcolfchrgbfa,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadcolpchrgbfa,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadcolrchrgbfa,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadcolxchrgbfa,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadfrlimbaaclo,artos,NUMBER,,,,0,1,,,LSX
+LSX,eadfrlimbfaclo,artos,NUMBER,,,,0,1,,,LSX
+LSX,eadfrlimbsaclo,artos,NUMBER,,,,0,1,,,LSX
+LSX,eadgarb2epe,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadgarbaa,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadgarbaabsa,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadgarbaadd,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadgarbaaepe,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadgarbaaepebsa,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadgarbfa,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadgarbsa,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,eadgarbsaepe,artos,NUMBER,,,,,0,,,FTR RSLT
+LSX,meadclo,artos,VARCHAR2,100,,,0,1,,,LSX
+LSX_EXCL,eadb2epe,artos,NUMBER,,,,0,1,,,
+LSX_EXCL,eadexclflg,artos,VARCHAR2,1,,,0,1,,,
+NPLDMHIST,eadcolbaa,artos,NUMBER,,,,0,1,,,
+NPLDMHIST,eadcolbaare,artos,NUMBER,,,,0,1,,,
+NPLDMHIST,eadcolbsa,artos,NUMBER,,,,0,1,,,
+NPLDMHIST,eadcolpbsa,artos,NUMBER,,,,0,1,,,
+NPLDMHIST,eadgarbaa,artos,NUMBER,,,,0,1,,,
+NPLDMHIST,eadgarbsa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadb2,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadb2ccy,artos,VARCHAR2,3,,,0,1,,,
+OUTFTRAD,eadb2epe,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadbaa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadbaaccy,artos,VARCHAR2,3,,,0,1,,,
+OUTFTRAD,eadbaacpy,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadbaaepe,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadbaaepelgdmdl,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadbfa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadbfaccy,artos,VARCHAR2,3,,,0,1,,,
+OUTFTRAD,eadbsa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadbsaccy,artos,VARCHAR2,3,,,0,1,,,
+OUTFTRAD,eadbsacpy,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadbsaepe,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadbsatrprv,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadcolb2,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadcolb2epe,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadcolbaa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadcolbaaepe,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadcolbsa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadcolbsaepe,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadcolfbfa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadcolpbfa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadcolrbfa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadcolsmbsa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadcolxbfa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadgarb2,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadgarb2epe,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadgarbaa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadgarbfa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadgarbsa,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadsaccr,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadsaccrepe,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eadsaccrmod,artos,NUMBER,,,,,1,,,
+OUTFTRAD,eaduncolsaccr,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eaduncolsaccrepe,artos,NUMBER,,,,0,1,,,
+OUTFTRAD,eaduncolsaccrmod,artos,NUMBER,,,,,1,,,
+OUTFTRAD,sfteadgr,artos,NUMBER,,,,0,1,,,
+P3_FTR,eadb2,artos,NUMBER,,,,0,0,,,AV
+P3_FTR,eadb2epe,artos,NUMBER,,,,0,0,,,AV
+P3_FTR,eadbdl,artos,NUMBER,,,,0,0,,,AV
+P3_FTR,eadcolb2epe,artos,NUMBER,,,,0,0,,,AV
+PBRTRNHST,eadbaaepedflt,artos,NUMBER,,,,0,1,,,
+PEXPCVA1,ead,artos,NUMBER,,,,27,0,,,
+PEXPCVA1,eadcol,artos,NUMBER,,,,84,0,,,
+POOL,plcovread,artos,NUMBER,,,,0,0,,,
+POOL,pleaddlv,artos,NUMBER,,,,0,0,,,
+POOL,plvueadjprvltd,gcds,NUMBER,,,,0,0,,,
+POOL,plvueadjprvytd,gcds,NUMBER,,,,0,0,,,
+PRESEC,eadbaaepe,artos,NUMBER,,,,0,1,,,
+PRESEC,eadbaafxpresec,artos,NUMBER,,,,0,1,,,
+PRESEC,eadbaafxpresec2,artos,NUMBER,,,,0,1,,,
+PRESEC,eadbaafxpresecbor,artos,NUMBER,,,,0,1,,,
+PRESEC,eadbaafxpresecbor2sec,artos,NUMBER,,,,0,1,,,
+PRESEC,eadbaafxpresecretl,gcds,NUMBER,,,,0,1,,,
+PRESEC,eadbaafxpresecwhlsl,gcds,NUMBER,,,,0,1,,,
+PRESEC,eadbaapresec,artos,NUMBER,,,,0,1,,,
+PRESEC,eadbaapresec2,artos,NUMBER,,,,0,1,,,
+PRESEC,eadbaapresecbor,artos,NUMBER,,,,0,1,,,
+PRESEC,eadbaapresecbor2sec,artos,NUMBER,,,,0,1,,,
+PRESEC,eadbaapresecbor2secretl,gcds,NUMBER,,,,0,1,,,
+PRESEC,eadbaapresecbor2secwhlsl,gcds,NUMBER,,,,0,1,,,
+PRESEC,eadbaapresecborretl,gcds,NUMBER,,,,0,1,,,
+PRESEC,eadbaapresecborwhlsl,gcds,NUMBER,,,,0,1,,,
+PRESEC,eadbsafxpresec,artos,NUMBER,,,,0,1,,,
+PRESEC,eadbsapresec,artos,NUMBER,,,,0,1,,,
+PRESEC,eaddbtrn,artos,NUMBER,,,,0,1,,,
+PRESEC,eadtrch,artos,NUMBER,,,,0,1,,,
+PRESEC,plcovread,artos,NUMBER,,,,0,1,,,PRESEC2TRAN
+PRESEC,plcovreadfx,artos,NUMBER,,,,0,1,,,
+PRESEC,plead,artos,NUMBER,,,,0,1,,,
+PRESEC,pleadfx,artos,NUMBER,,,,0,1,,,
+PRESEC,plvueadjprvltd,artos,NUMBER,,,,0,1,,,
+PRESEC,plvueadjprvytd,artos,NUMBER,,,,0,1,,,
+PRESEC,srteadtrch,artos,NUMBER,,,,0,0,,,
+PRESEC,toteadtrchrnk,artos,NUMBER,,,,0,1,,,
+PRESEC,totsrteadtrchrnk,artos,NUMBER,,,,0,0,,,
+PRESEC,wgteadbaapresec,artos,NUMBER,,,,0,1,,,
+PRESEC,wgteadbaapresecnofx,artos,NUMBER,,,,0,1,,,
+PRESEC,wgteadbaapresecretl,gcds,NUMBER,,,,0,1,,,
+PRESEC,wgteadbaapresecwhlsl,gcds,NUMBER,,,,0,1,,,
+RDBRET,eadb2epe,artos,NUMBER,,,,1,0,,,
+RDBRET,eadbaa,artos,NUMBER,,,,1,0,,,
+RDBRET,eadbaaepe,artos,NUMBER,,,,1,0,,,
+RDBRET,eadbaaepelgdmdl,artos,NUMBER,,,,1,0,,,
+RDBRET,eadbaaswp,artos,NUMBER,,,,1,0,,,
+RDBRET,eadbfa,artos,NUMBER,,,,1,0,,,
+RDBRET,eadbfaswp,artos,NUMBER,,,,1,0,,,
+RDBRET,eadbsaepe,artos,NUMBER,,,,1,0,,,
+RDBRET,eadbsaswp,artos,NUMBER,,,,1,0,,,
+RDBRET,eadcolb2epe,artos,NUMBER,,,,1,0,,,
+RDBRET,eadcolbaa,artos,NUMBER,,,,1,0,,,
+RDBRET,eadcolbaaepe,artos,NUMBER,,,,1,0,,,
+RDBRET,eadcolbfa,artos,NUMBER,,,,1,0,,,
+RDBRET,eadcolbsa,artos,NUMBER,,,,1,0,,,
+RDBRET,eadcolfbfa,artos,NUMBER,,,,1,0,,,
+RDBRET,eadcolfflr,artos,NUMBER,,,,1,0,,,
+RDBRET,eadcolpbfa,artos,NUMBER,,,,1,0,,,
+RDBRET,eadcolpflr,artos,NUMBER,,,,1,0,,,
+RDBRET,eadcolrbfa,artos,NUMBER,,,,1,0,,,
+RDBRET,eadcolrflr,artos,NUMBER,,,,1,0,,,
+RDBRET,eadcolxbfa,artos,NUMBER,,,,1,0,,,
+RDBRET,eadcolxflr,artos,NUMBER,,,,1,0,,,
+RDBRET,eadgarb2epe,artos,NUMBER,,,,1,0,,,
+RDBRET,eadgarbaa,artos,NUMBER,,,,1,0,,,
+RDBRET,eadgarbaadd,artos,NUMBER,,,,1,0,,,
+RDBRET,eadgarbaaepe,artos,NUMBER,,,,1,0,,,
+RDBRET,eadgarbfa,artos,NUMBER,,,,1,0,,,
+RDBRET,eadgarbfadd,artos,NUMBER,,,,1,0,,,
+RDBRET,eadgarbsa,artos,NUMBER,,,,1,0,,,
+RDBRET,eadgarmdlngbaa,artos,NUMBER,,,,1,0,,,
+RDBRET,sfteadgr,artos,NUMBER,,,,1,0,,,
+RDBRET,sfteadsvaa,artos,NUMBER,,,,1,0,,,
+RWAALLOC_FTR,eadb2,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,eadb2epe,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,eadbaaepe,artos,NUMBER,,,,0,0,,,FR
+RWAALLOC_FTR,eadbaaepelgdmdl,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,eadcolb2,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,eadcolb2epe,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,eadgarb2,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,eadgarb2epe,artos,NUMBER,,,,0,0,,,
+RWAALLOC_FTR,eadgarbaa,artos,NUMBER,,,,0,0,,,
+RWASUMMARY,eadbaafxpresec,artos,NUMBER,,,,0,1,,,
+RWASUMMARY,eadbsafxpresec,artos,NUMBER,,,,0,1,,,
+SBP_COL,eadbaa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_COL,eadcolb2,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_COL,eadcolbaa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_COL,eadcolbaaepe,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_COL,eadcolcd,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,eadcolcre,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,eadcolfin,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,eadcolguar,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,eadcolmdl,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,eadcolna,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,eadcolofp,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,eadcoloth,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,eadcoloucp,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,eadcolrec,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,eadcolrre,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,eadgarbaa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_COL,eadgarbaadd,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_COL,eadguaruncol,artos,NUMBER,,,,0,0,,,CALC
+SBP_COL,sbpeadb2,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_FTR,eadb2epe,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,eadbaa,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,eadbaaepe,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,eadbfa,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,eadcolb2,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,eadcolb2epe,artos,NUMBER,,,,0,0,,,FTR MISSTOZERO
+SBP_FTR,eadcolbaa,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,eadcolbaaepe,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,eadcolcd,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,eadcolcre,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,eadcolfbfa,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,eadcolfin,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,eadcolguar,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,eadcolna,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,eadcolofp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,eadcoloth,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,eadcoloucp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,eadcolrec,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,eadcolrre,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,eadgarb2epe,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,eadgarbaa,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,eadgarbaadd,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,eadgarbaaepe,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,eadgarbfa,artos,NUMBER,,,,0,0,,,FTR
+SBP_FTR,eadguaruncol,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,eadtrnuncol,artos,NUMBER,,,,0,0,,,CALC ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl10_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl11_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl12_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl13_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl14_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl15_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl16_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl17_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl18_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl19_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl1_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl20_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl21_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl22_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl23_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl24_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl2_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl3_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl4_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl5_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl6_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl7_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl8_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpcolmdl9_exp,artos,NUMBER,,,,0,0,,,SBP_COL SUM ART_SCALEBYEAD
+SBP_FTR,sbpeadb2,artos,NUMBER,,,,0,0,,,CALC
+SBP_FTR,sbpeadcol,artos,NUMBER,,,,0,0,,,CALC POSTCOL
+SBP_FTR,sbpeadcolb2,artos,NUMBER,,,,0,0,,,CALC
+SBP_FTR,sbpeadgarb2,artos,NUMBER,,,,0,0,,,CALC
+SBP_FTR,sbpeaduncol,artos,NUMBER,,,,0,0,,,CALC POSTCOL
+SBP_FTRHIST,eadb2epe,artos,NUMBER,,,,0,0,,,FTR
+SBP_MDL,ead_avalusgmdl,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,ead_lefmdl,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,ead_pdmdl,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_MDL,ead_sevmdl,artos,NUMBER,,,,0,0,,,SBP_PTF
+SBP_PBHIST,pb_hist_ead,artos,NUMBER,,,,16,0,,,
+SBP_PTF,ead_avalusgmdl,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,ead_lefmdl,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,ead_pdmdl,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,ead_sevmdl,artos,NUMBER,,,,0,0,,,CALC
+SBP_PTF,eadb2epe,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,eadbaa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,eadbaaepe,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,eadbfa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,eadcolbaa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,eadcolbaaepe,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,eadcolcd,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,eadcolcre,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,eadcolfin,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,eadcolguar,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,eadcolofp,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,eadcoloth,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,eadcoloucp,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,eadcolrec,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,eadcolrre,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,eadgarbaa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,eadgarbaaepe,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,eadgarbfa,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpeadcol,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTF,sbpeaduncol,artos,NUMBER,,,,0,0,,,SBP_FTR
+SBP_PTFHIST,eadb2epe,artos,NUMBER,,,,0,0,,,SBP_FTRHIST AV
+SECDM,eadbaafxpresec,artos,NUMBER,,,,0,1,,,PRESEC2SEC DEAL_LEV
+SECDM,eadbaapresec,artos,NUMBER,,,,0,1,,,PRESEC2SEC DEAL_LEV
+SECDM,eaddbactvwtrfllagg,artos,NUMBER,,,,0,0,,,
+SECDM,eaddbsec,artos,NUMBER,,,,0,1,,,FTR
+SECDM,eaddbtrn,artos,NUMBER,,,,0,1,,,FTR PRESEC2SEC TRAN_LEV
+SECDM,eaddbwtrfll,artos,NUMBER,,,,0,0,,,
+SECDM,eadtrch,artos,NUMBER,,,,0,1,,,ORIG PRESEC2SEC TRAN_LEV
+SECDM,plcovread,artos,NUMBER,,,,0,1,,,DM2 PRESEC2SEC DEAL_LEV
+SECDM,plcovreadfx,artos,NUMBER,,,,0,1,,,PRESEC2SEC DEAL_LEV
+SECDM,plead,artos,NUMBER,,,,0,1,,,PRESEC2SEC DEAL_LEV
+SECDM,pleaddlv,artos,NUMBER,,,,0,1,,,
+SECDM,pleadfx,artos,NUMBER,,,,0,1,,,PRESEC2SEC DEAL_LEV
+SECDM,plvueadjprvltd,artos,NUMBER,,,,0,1,,,PRESEC2SEC DEAL_LEV
+SECDM,plvueadjprvytd,artos,NUMBER,,,,0,1,,,PRESEC2SEC DEAL_LEV
+SECDM,srteadtrch,artos,NUMBER,,,,0,1,,,PRESEC2SEC TRAN_LEV
+SECDM,toteadtrchrnk,artos,NUMBER,,,,0,0,,,DST PRESEC2SEC TRAN_LEV
+SECDM,totsrteadtrchrnk,artos,NUMBER,,,,0,0,,,DST PRESEC2SEC TRAN_LEV
+SHS_FTR,eadb2epe,artos,NUMBER,,,,0,0,,,AV
+SHS_FTR,eadcolb2epe,artos,NUMBER,,,,0,0,,,
+FINASSMT,cet1rcpy,artos,NUMBER,,,,0,0,,,
+FINASSMT,cet1rminreqcpy,artos,NUMBER,,,,0,0,,,
